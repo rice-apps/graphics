@@ -1,12 +1,10 @@
 RiceApps-graphics
 =================
-
-pics and stuff
-
 <ol>
 <li> File Conventions<br>
-   a. Name _ colored / blackwhite _ any other defining traits _ size (width x height) where c = colored & bw = blackwhite<br>
-      	 &nbsp;&nbsp;&nbsp;&nbsp; <i>Eg. giantMonsterOwl_bw_final_750x125.png<br>
+   a. Name _ colored / blackwhite _ any other defining traits _ size (width x height)<br>
+   where c = colored & bw = blackwhite<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i>Eg. giantMonsterOwl_bw_final_750x125.png<br>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; flyingSpaghettiMonster_c_ugly_1000x1000.png<br></i>
    b. Save each drawing under two formats: one as a .png and the other as a .psd with elements divided into layers<br>
 </li>	
