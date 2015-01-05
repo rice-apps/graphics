@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ideas</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href= "../css/bootstrap.min.css" rel = "stylesheet">
+        <link href= "../css/styles.css" rel= "stylesheet">
+    </head>
+    <body>       
+        <script src= "//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src= "../js/bootstrap.js"></script>
+        <h1>Rice Apps Idea Submission</h1>
+        <p>
+        "Rice Apps' mission is to empower developers to improve student life through technology at Rice."
+        <br>
+        Submit ideas you think would benefit the Rice community!
+        <br>
+        <br>
+        Some projects currently being worked on:
+        <br>-better servery menu app
+        <br>-interactive map of campus (atlas.riceapps.org)
+        <br>-Rice elections webapp (owlection.appspot.com)
+        <br>-meeting new strangers (meetup.riceapps.org)
+        
+        </p>
+        <form>
+            
+            <div class="form-customized">
+                <label for="inputName">Name</label>
+                <div class="form-customized">
+                    <input type="text" id= "inputName" placeholder="Name" maxlength="30">
+                </div>
+            </div>
+            
+            <br>
+            
+            <div class="form-customized" id="ID">
+                <label for="ID">Rice.edu username</label>
+                <div class="form-customized">
+                    <input type="text" id= "ID" placeholder="example@rice.edu" maxlength="30">
+                </div>
+            </div>
+    
+            <br>
+            
+            <div class="form-customized" id="description">
+                <label for="description">Give a description of your idea</label>
+                <div class="form-customized">
+                    <textarea class="form-control" rows="5" id= "description"></textarea>
+                </div>
+            </div>
+            
+            <br>
+            
+            <div class="form-customized" id="benefit">
+                <label for="benefit">Why do you think Rice needs your app?</label>
+                <p>How would Rice benefit?</p>
+                <div class="form-customized">
+                    <textarea class="form-control" rows="5" id= "benefit"></textarea>
+                </div>
+            </div>
+            
+            <br>
+            
+            <div class="form-customized" id="technology">
+                <label for="technology">What technologies do you think would be used to create this app?</label>
+                <p>Objective-C, Flask, etc.</p>
+                <div class="form-customized">
+                    <textarea class="form-control" rows="5" id= "technology"></textarea>
+                </div>
+            </div>
+            
+            <br>
+            
+            <div class="radio, form-customized" id="lead">
+                <label for="lead">Would you like to be a team lead for this project?</label>
+            </div>
+            <div class="radio" id="lead">
+                <label>
+                    <input type="radio" name="Yes" id="lead" value="Yes">
+                Yes
+                </label>
+            </div>
+            <div class="radio" id="lead">
+                <label>
+                    <input type="radio" name="No" id="lead" value="No">
+                No
+                </label>
+            </div>
+
+            
+            <button type="submit" class="btn btn-default">Submit</button>
+            
+        </form>
+        
+    </body>
+    
+    <br>
+
+</html>
