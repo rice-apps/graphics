@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bug Report</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href= "../css/bootstrap.min.css" rel = "stylesheet">
+        <link href= "../css/styles.css" rel= "stylesheet">
+    </head>
+    <body>       
+        <script src= "//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src= "../js/bootstrap.js"></script>
+        <h1>Rice Apps Bug Submission</h1>
+        
+        <form>
+            
+            <div class="form-customized">
+                <label for="inputName">Name</label>
+                <div class="form-customized">
+                    <input type="text" id= "inputName" placeholder="Name" maxlength="30">
+                </div>
+            </div>
+            
+            <br>
+            
+            <div class="form-customized" id="ID">
+                <label for="ID">Rice.edu username</label>
+                <div class="form-customized">
+                    <input type="text" id= "ID" placeholder="example@rice.edu" maxlength="30">
+                </div>
+            </div>
+    
+            <br>
+            
+            <div class="form-customized" id="date">
+                <label for="date">Date seen</label>
+                <p>Date the bug was found goes here</p>
+                <div class="form-customized">
+                    <input type="text" id= "date" placeholder="MM/DD/YYYY" maxlength="30">
+                </div>
+            </div>
+    
+            <br>
+            
+            <div class="form-customized" id="app-name">
+                <label for="app-name">Which app were you using?</label>
+                <div class="form-customized">
+                    <input type="text" id= "app-name" placeholder="" maxlength="30">
+                </div>
+            </div>
+    
+            <br>
+            
+            <div class="form-customized" id="description">
+                <label for="description">Bug Description</label>
+                <p>A concise description of what the problem is.</p>
+                <div class="form-customized">
+                    <textarea class="form-control" rows="5" id= "description"></textarea>
+                </div>
+            </div>
+            
+            <br>
+            
+            <div class="form-customized" id="steps">
+                <label for="steps">Steps to Reproduce</label>
+                <div class="form-customized">
+                    <textarea class="form-control" rows="5" id= "steps" placeholder="1. Step by step instructions on how to reproduce this bug.
+2. Do not assume anything, the more detailed your list of instructions, the easier it is for the developer to track down the problem!"></textarea>
+                </div>
+            </div>
+            
+            <br>
+            
+            <div class="form-customized" id="workaround">
+                <label for="workaround">Workaround</label>
+                <p>If you found a way to make the program work in spite of the bug, describe how you did it here.</p>
+                <div class="form-customized">
+                    <textarea class="form-control" rows="5" id= "workaround"></textarea>
+                </div>
+            </div>
+            
+        </form>
+        
+    </body>
+    
+    <br>
+
+</html>

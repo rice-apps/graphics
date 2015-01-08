@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href= "../css/bootstrap.min.css" rel = "stylesheet">
+        <link href= "../css/styles.css" rel= "stylesheet">
+    </head>
+    <body>       
+        <script src= "//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src= "../js/bootstrap.js"></script>
+        <h1>Rice Apps Application</h1>
+        <p>
+        Fill out to apply to Rice Apps for Fall 2014. Unfortunately, we can't guarantee we will contact you further, but we will keep your name down for future reference. You may hear back from us about scheduling an interview.
+        
+        </p>
+        <form>
+            
+            <div class="form-customized">
+                <label for="inputName">Name</label>
+                <div class="form-customized">
+                    <input type="text" id= "inputName" placeholder="Name" maxlength="30">
+                </div>
+            </div>
+            
+            <br>
+            
+            <div class="form-customized">
+                <label for="riceID">Rice.edu username</label>
+                <div class="form-customized">
+                    <input type="text" id= "riceID" placeholder="example@rice.edu" maxlength="30">
+                </div>
+            </div>
+            
+            <br>
+            
+            <div class="form-customized" id="Phone">
+                <label for="inputPhone">Phone #</label>
+                <div class="form-customized">
+                    <input type="text" id= "inputPhone" placeholder="###-###-###" maxlength="12">
+                </div>
+            </div>
+    
+            <br>
+            
+            <div class="form-customized" id="Year">
+                <label for= "year">Year</label>
+                <div class="form-customized">
+                    <select id= "year">
+                        <option value="freshman">Freshman</option>
+                        <option value="sophomore">Sophomore</option>
+                        <option value="junior">Junior</option>
+                        <option value="senior">Senior</option>
+                    </select>
+                </div>
+            </div>
+            
+            <br>
+            
+            <div class="form-customized" id="Major">
+                <label for="inputMajor">Name</label>
+                <div class="form-customized">
+                    <input type="text" id= "inputMajor" placeholder="Major" maxlength="100">
+                </div>
+            </div>
+            
+            <br>
+            <div class="form-customized" id="position">
+                <label for= "position">I am interested in helping out as a:</label>
+                <div class="form-customized">
+                    <div class="checkbox">
+                      <label>
+                        <input type="checkbox" value="Developer">
+                        Developer (coder)
+                      </label>
+                    </div>
+                    <div class="checkbox">
+                      <label>
+                        <input type="checkbox" value="Designer">
+                        Designer (artist)
+                      </label>
+                    </div>
+                    <div class="checkbox">
+                      <label>
+                        <input type="checkbox" value="Project Manager">
+                        Project Manager (team lead)
+                      </label>
+                    </div>
+                    <div class="checkbox">
+                      <label>
+                        <input type="checkbox" value="Other">
+                        Other:
+                          <input type= "text" placeholder="other position">
+                      </label>
+                    </div>
+                </div>
+            </div>
+            
+            <br>
+            
+            <div class="form-customized" id="project">
+                <label for= "project">Which project are you interested in working on? Or, propose your own in the Other box</label>
+                <div class="form-customized">
+                    <div class="checkbox">
+                      <label>
+                        <input type="checkbox" value="Servery">
+                        Servery App (servery.riceapps.org)
+                      </label>
+                    </div>
+                    <div class="checkbox">
+                      <label>
+                        <input type="checkbox" value="Atlas">
+                        Atlas (atlas.riceapps.org)
+                      </label>
+                    </div>
+                    <div class="checkbox">
+                      <label>
+                        <input type="checkbox" value="Rice Elections">
+                        Rice Elections (elections.riceapps.org)
+                      </label>
+                    </div>
+                    <div class="checkbox">
+                      <label>
+                        <input type="checkbox" value="Wellbeing App;">
+                        Wellbeing App
+                      </label>
+                    </div>
+                    <div class="checkbox">
+                      <label>
+                        <input type="checkbox" value="Petition App">
+                        Petition App
+                      </label>
+                    </div>
+                    <div class="checkbox">
+                      <label>
+                        <input type="checkbox" value="Schedule Planner">
+                        Schedule Planner
+                      </label>
+                    </div>
+                    <div class="checkbox">
+                      <label>
+                        <input type="checkbox" value="Rice Village Connections">
+                        Rice Village Connections (submitted idea!)
+                      </label>
+                    </div>
+                    <div class="checkbox">
+                      <label>
+                        <input type="checkbox" value="Boba Sales notifications">
+                        Boba Sales notifications (sbumitted idea!)
+                      </label>
+                    </div>
+                    <div class="checkbox">
+                      <label>
+                        <input type="checkbox" value="Duncan Hall Building map">
+                        Duncan Hall Building Map App (submitted idea!)
+                      </label>
+                    </div>
+                    <div class="checkbox">
+                      <label>
+                        <input type="checkbox" value="Don't care">
+                        I don't care, just get me on Rice Apps!
+                      </label>
+                    </div>
+                    <div class="checkbox">
+                      <label>
+                        <input type="checkbox" value="Other">
+                        Other:
+                          <input type= "text" placeholder="other project">
+                      </label>
+                    </div>
+                </div>
+            </div>
+            
+            <br>
+            
+            <div class="form-customized" id="Interest">
+                <label for="interest">Why are you interested in Rice Apps? What do you hope to achieve as a member?</label>
+                <div class="form-customized">
+                    <textarea class="form-control" rows="5" id= "interest"></textarea>
+                </div>
+            </div>
+            
+            <br>
+            
+            <div class="form-customized" id="Experience">
+                <label for="experience">What technologies/programming languages/frameworks are you comfortable with?</label>
+                <div class="customized">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <td></td> 
+                                <td style="width: 20%;">
+                                    <label>Expert</label>
+                                </td> 
+                                <td style="width: 20%;">
+                                    <label>Pretty Good</label>
+                                </td> 
+                                <td style="width: 20%;">
+                                    <label>Played with it</label>
+                                </td> 
+                                <td style="width: 20%;">
+                                    <label>None</label>
+                                </td> 
+                                
+                            </tr>
+                        </thead>
+                    
+                        <tbody>
+                            <tr>
+                                <td>HTML / CSS</td>
+                                <td><label>
+                                    <input type="radio" name="HTML/CSS" value="Expert"></label></td> 
+                                <td><label>
+                                    <input type="radio" name="HTML/CSS" value="Pretty Good"></label></td>
+                                <td><label>
+                                    <input type="radio" name="HTML/CSS" value="Played With"></label></td> 
+                                <td><label>
+                                    <input type="radio" name="HTML/CSS" value="None"></label></td>
+                            </tr>
+                            <tr>
+                                <td>JavaScript</td>
+                                <td><label>
+                                    <input type="radio" name="HTML/CSS" value="Expert"></label></td> 
+                                <td><label>
+                                    <input type="radio" name="HTML/CSS" value="Pretty Good"></label></td>
+                                <td><label>
+                                    <input type="radio" name="HTML/CSS" value="Played With"></label></td> 
+                                <td><label>
+                                    <input type="radio" name="HTML/CSS" value="None"></label></td>
+                            </tr>
+                            <tr>
+                                <td>Python</td>
+                                <td><label>
+                                    <input type="radio" name="HTML/CSS" value="Expert"></label></td> 
+                                <td><label>
+                                    <input type="radio" name="HTML/CSS" value="Pretty Good"></label></td>
+                                <td><label>
+                                    <input type="radio" name="HTML/CSS" value="Played With"></label></td> 
+                                <td><label>
+                                    <input type="radio" name="HTML/CSS" value="None"></label></td>
+                            </tr>
+                            <tr>
+                                <td>Java</td>
+                                <td><label>
+                                    <input type="radio" name="HTML/CSS" value="Expert"></label></td> 
+                                <td><label>
+                                    <input type="radio" name="HTML/CSS" value="Pretty Good"></label></td>
+                                <td><label>
+                                    <input type="radio" name="HTML/CSS" value="Played With"></label></td> 
+                                <td><label>
+                                    <input type="radio" name="HTML/CSS" value="None"></label></td>
+                            </tr>
+                            <tr>
+                                <td>C++</td>
+                                <td><label>
+                                    <input type="radio" name="HTML/CSS" value="Expert"></label></td> 
+                                <td><label>
+                                    <input type="radio" name="HTML/CSS" value="Pretty Good"></label></td>
+                                <td><label>
+                                    <input type="radio" name="HTML/CSS" value="Played With"></label></td> 
+                                <td><label>
+                                    <input type="radio" name="HTML/CSS" value="None"></label></td>
+                            </tr>
+                            <tr>
+                                <td>PHP</td>
+                                <td><label>
+                                    <input type="radio" name="HTML/CSS" value="Expert"></label></td> 
+                                <td><label>
+                                    <input type="radio" name="HTML/CSS" value="Pretty Good"></label></td>
+                                <td><label>
+                                    <input type="radio" name="HTML/CSS" value="Played With"></label></td> 
+                                <td><label>
+                                    <input type="radio" name="HTML/CSS" value="None"></label></td>
+                            </tr>
+                            <tr>
+                                <td>Scala</td>
+                                <td><label>
+                                    <input type="radio" name="HTML/CSS" value="Expert"></label></td> 
+                                <td><label>
+                                    <input type="radio" name="HTML/CSS" value="Pretty Good"></label></td>
+                                <td><label>
+                                    <input type="radio" name="HTML/CSS" value="Played With"></label></td> 
+                                <td><label>
+                                    <input type="radio" name="HTML/CSS" value="None"></label></td>
+                            </tr>
+                            <tr>
+                                <td>Ruby</td>
+                                <td><label>
+                                    <input type="radio" name="HTML/CSS" value="Expert"></label></td> 
+                                <td><label>
+                                    <input type="radio" name="HTML/CSS" value="Pretty Good"></label></td>
+                                <td><label>
+                                    <input type="radio" name="HTML/CSS" value="Played With"></label></td> 
+                                <td><label>
+                                    <input type="radio" name="HTML/CSS" value="None"></label></td>
+                            </tr>
+                            <tr>
+                                <td>SQL Databases</td>
+                                <td><label>
+                                    <input type="radio" name="HTML/CSS" value="Expert"></label></td> 
+                                <td><label>
+                                    <input type="radio" name="HTML/CSS" value="Pretty Good"></label></td>
+                                <td><label>
+                                    <input type="radio" name="HTML/CSS" value="Played With"></label></td> 
+                                <td><label>
+                                    <input type="radio" name="HTML/CSS" value="None"></label></td>
+                            </tr>
+                            <tr>
+                                <td>NoSQL Databases</td>
+                                <td><label>
+                                    <input type="radio" name="HTML/CSS" value="Expert"></label></td> 
+                                <td><label>
+                                    <input type="radio" name="HTML/CSS" value="Pretty Good"></label></td>
+                                <td><label>
+                                    <input type="radio" name="HTML/CSS" value="Played With"></label></td> 
+                                <td><label>
+                                    <input type="radio" name="HTML/CSS" value="None"></label></td>
+                            </tr>
+                            <tr>
+                                <td>Mobile development (iOS)</td>
+                                <td><label>
+                                    <input type="radio" name="HTML/CSS" value="Expert"></label></td> 
+                                <td><label>
+                                    <input type="radio" name="HTML/CSS" value="Pretty Good"></label></td>
+                                <td><label>
+                                    <input type="radio" name="HTML/CSS" value="Played With"></label></td> 
+                                <td><label>
+                                    <input type="radio" name="HTML/CSS" value="None"></label></td>
+                            </tr>
+                            <tr>
+                                <td>Mobile development (Android)</td>
+                                <td><label>
+                                    <input type="radio" name="HTML/CSS" value="Expert"></label></td> 
+                                <td><label>
+                                    <input type="radio" name="HTML/CSS" value="Pretty Good"></label></td>
+                                <td><label>
+                                    <input type="radio" name="HTML/CSS" value="Played With"></label></td> 
+                                <td><label>
+                                    <input type="radio" name="HTML/CSS" value="None"></label></td>
+                            </tr>
+                            <tr>
+                                <td>Parse</td>
+                                <td><label>
+                                    <input type="radio" name="HTML/CSS" value="Expert"></label></td> 
+                                <td><label>
+                                    <input type="radio" name="HTML/CSS" value="Pretty Good"></label></td>
+                                <td><label>
+                                    <input type="radio" name="HTML/CSS" value="Played With"></label></td> 
+                                <td><label>
+                                    <input type="radio" name="HTML/CSS" value="None"></label></td>
+                            </tr>
+                            <tr>
+                                <td>Google App Engine</td>
+                                <td><label>
+                                    <input type="radio" name="HTML/CSS" value="Expert"></label></td> 
+                                <td><label>
+                                    <input type="radio" name="HTML/CSS" value="Pretty Good"></label></td>
+                                <td><label>
+                                    <input type="radio" name="HTML/CSS" value="Played With"></label></td> 
+                                <td><label>
+                                    <input type="radio" name="HTML/CSS" value="None"></label></td>
+                            </tr>
+                            <tr>
+                                <td>Amazon AWS</td>
+                                <td><label>
+                                    <input type="radio" name="HTML/CSS" value="Expert"></label></td> 
+                                <td><label>
+                                    <input type="radio" name="HTML/CSS" value="Pretty Good"></label></td>
+                                <td><label>
+                                    <input type="radio" name="HTML/CSS" value="Played With"></label></td> 
+                                <td><label>
+                                    <input type="radio" name="HTML/CSS" value="None"></label></td>
+                            </tr>
+                        </tbody>
+                                
+                    </table>
+                </div>
+            </div>
+            
+            <br>
+            
+            <div class="form-customized" id="Other SKills">
+                <label for="other skills">Do you have other skills or experiences aside from the ones listed above? 
+                    <br>ie. Windows Phone, specific frameworks like AngularJS or Django</label>
+                <div class="customized">
+                    <textarea class="form-control" rows="5" id= "other skills">
+                    </textarea>
+                </div>
+            </div>
+            
+            <br>
+            
+            <div class="form-customized" id="Comments">
+                <label for="comments">Additional comments</label>
+                <div class="customized">
+                    <textarea class="form-control" rows="5" id= "coments"></textarea>
+                </div>
+            </div>
+            
+            <br>
+            
+            <button type="submit" class="btn btn-default">Submit</button>
+            
+        </form>
+        
+    </body>
+    
+    <br>
+
+</html>
