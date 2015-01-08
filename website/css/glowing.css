@@ -1,0 +1,70 @@
+	/*@import "http://ajax.googleapis.com/ajax/libs/dojo/1.7.0/dojo/resources/dojo.css";
+	@import "http://ajax.googleapis.com/ajax/libs/dojo/1.7.0/dijit/themes/claro/claro.css";
+	
+		-moz-filter: hue-rotate(90deg);
+		-o-filter: hue-rotate(90deg);
+		-ms-filter: hue-rotate(90deg);
+
+
+	*/
+ 
+	@-webkit-keyframes testAnim {
+		0% {
+			-webkit-filter: hue-rotate(90deg);
+		}
+		33% {
+			-webkit-filter: hue-rotate(180deg);
+		} 
+		66% {
+			-webkit-filter: hue-rotate(270deg);
+		} 
+		100% {
+			-webkit-filter: hue-rotate(360deg);
+		} 
+		
+	}
+
+	@keyframes testAnim{ 
+		0% {
+			filter: hue-rotate(90deg);
+		}
+		33% {
+			filter: hue-rotate(180deg);
+		}
+		66% {
+			filter: hue-rotate(270deg);
+		}
+		100% {
+			filter: hue-rotate(360deg);
+		} 
+	} 
+
+   #right-side{ 
+		top: 0;
+		left: 2000px; 
+	}
+
+	#left-side{ 
+		top: 0px;
+		left: -1700px; 
+	}
+		
+	.wallpaper{
+		position:  fixed; 
+		max-width: 50%;
+		-webkit-animation-name: testAnim;
+		-webkit-animation-duration: 5s;
+		-webkit-animation-iteration-count: infinite;
+		-webkit-animation-direction: alternate;
+		-webkit-animation-timing-function: ease-out;
+		-webkit-animation-fill-mode: forwards;
+		-webkit-animation-delay: 0s;
+
+		animation-name: testAnim;
+		animation-duration: 5s;
+		animation-iteration-count: infinite;
+		animation-direction: alternate;
+		animation-timing-function: ease-out;
+		animation-fill-mode: forwards;
+		animation-delay: 0s;
+	}
