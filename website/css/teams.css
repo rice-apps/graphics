@@ -1,4 +1,24 @@
 
+html, body {
+    		height: 100%;
+    		margin: 0;
+    	}
+
+ body{
+ 	display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+ }
+
+ .flexbox{
+ 	display:flex;
+ 	flex-wrap: wrap; 
+ 	justify-content: center;
+  
+ }
+
+
 
 .flex{
 	display: -webkit-flex;
@@ -11,19 +31,26 @@
 	flex-direction: row;
 }
 
+
+ div.container{
+ 	min-height:100%; 
+ }
+
 .wrapper{
     width: 100%;
-    height: auto;
-    padding-bottom: 25px;
-    display:block;
+   	margin-left: auto;
+   	margin-right: auto;
+    height:100vh;
+
+    display:table;
+    position:relative;  
 }
 
 .logo{
 	width: 270px; 
 	height: 270px;
     display: inline;
-    float:left;
-    margin-bottom: 60px;
+    float:left; 
 }
 
 .logo > img{
@@ -31,13 +58,13 @@
     height: 270px;
 }
 
-.logo > p{
-	font-size: 48pt;
-    text-align: center;
+.logo > h3{
+	font-size: 25pt;
+    text-align: center; 
 }
 
-.title{
-	
+.h1{
+
 }
 
 .screenshots{

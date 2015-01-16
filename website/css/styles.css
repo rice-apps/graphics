@@ -1,8 +1,28 @@
-
-    
-br {
-    
+/** Fonts **/
+@font-face{
+    font-family: Bebas;
+    src: url('BebasNeue.otf');
 }
+
+@font-face{
+    font-family: GeoSans;
+    src: url('GeosansLight.ttf');
+}
+/** --------------------------- **/
+		/**  HEADINGS **/
+/** --------------------------- **/
+
+h1,h2,h3 {
+    font-family: Bebas; 
+    margin-left: 10px; 
+}
+
+h1{
+	font-size:70px;
+}
+
+/** --------------------------- **/
+ 
 
 button {
     margin-left: 10px
@@ -11,10 +31,7 @@ button {
 
 .form-customized {
     margin-left: 10px
-}
-
-
-
+} 
 
 .btn {
     
@@ -23,27 +40,15 @@ button {
 button {
     margin: 10px 10px 10px 10px
         
-}
-
-h1 {
-    margin-left: 10px
-}
-
+} 
 p {
     margin-left: 10px
-}
-
-p {
     color: #A9A9A9
 }
 
 input {
     
-}
-
-
-
-
+} 
 
 #lead {
     
@@ -51,4 +56,16 @@ input {
 
 .radio {
     margin-left: 10px
+}
+
+
+.footer-downarrow{
+    width:50%;
+    bottom:20px;
+    position:fixed;
+    background-color: black;
+    opacity: .5;
+    color: white;
+    height: 40px; 
+    text-align:center;
 }
