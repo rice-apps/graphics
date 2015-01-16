@@ -29,7 +29,6 @@ p, span{
     color: #384045;
     font-size: 14px;
 }
-
 /** Helper Classes **/
 .section{
     width: 100%;
@@ -101,6 +100,9 @@ p, span{
         .nav > a:hover{
             border: 2px solid #2F363A;
         }
+        .active > a{
+            border: 2px solid #2F363A;
+        }
     .shift{
         margin-left: 5%;
     }
@@ -126,9 +128,10 @@ p, span{
     }
 
 /** About **/
-#about{
+#about, #faq{
     background-color: #E7F6FF;
 }
+
 
 /** Footer **/
 footer{

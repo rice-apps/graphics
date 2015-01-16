@@ -1,0 +1,91 @@
+<!--
+Rice Apps 2015
+Design Team: 
+ - Lisa Huang
+ - Alex Lamas
+ - Jeffrey Xiong
+ - May Zhong
+-->
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<title> Rice Apps </title>
+	<!-- Meta -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- CSS / Bootstrap -->
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/home.css" rel="stylesheet">
+    <!-- Javascript / JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script>
+	// Fix Navigation on Scroll
+	$(window).scroll(function(){
+      	if ($(this).scrollTop() > 120) {
+            $('.navbar').addClass('fix-scroll');
+            $('.navbar-fix').addClass('space');
+      	} else {
+            $('.navbar').removeClass('fix-scroll');
+            $('.navbar-fix').removeClass('space');
+      	}
+  	});
+    </script>
+</head>
+
+<body>
+
+<!-- Logo Header -->
+<div id="header">
+	<div class="logo">
+		<a href="home.html"><img src="images/logo-02.png" width="330" height="100"></a>
+	</div>
+</div>
+
+<!-- Navigation Bar -->
+<div class="flex navbar">
+	<span class="nav"><a href="home.html"> HOME </a></span>
+	<span class="nav shift"><a href="teams.html"> PROJECTS </a></span>
+	<span class="nav shift"><a href="contact.html"> CONTACT </a></span>
+	<span class="nav shift"><a href="applyindex.html"> APPLY </a></span>
+	<span class="nav shift active"><a href="#"> FAQ </a></span>
+</div>
+<div class="navbar-fix"></div>
+
+<div id="faq"class="section">
+    <div class="section-title">
+        <span class="subtitle"> FAQs </span>
+    </div>
+    <br>
+    <p><strong>What kind of skills and background are you looking for?</strong></p>
+    <p> There are no strict requirements or prerequisites, but applicants should be passionate about the mission of Rice Apps, be technically proficient and creative, and have strong communication skills. Experience working on projects outside of academic coursework is highly preferred but not required. </p>
+    <br>
+    <p><strong>What’s in it for me?</strong></p>
+    <p> You’ll have a chance to work on projects that could potentially affect everyone at Rice in a positive manner. You’ll also learn how to rapidly prototype, develop, and iterate on ideas. </p>
+    <br>
+    <p><strong>What are the logistics?</strong></p>
+    <p> The success of the program depends on active collaboration with low communication overhead. We will meet once a week for roughly a 4 hour time period to work on the projects. Some tasks may need to be completed outside of contact hours. Caffeine and snacks will be provided during hacking time! </p>
+    <br>
+    <p><strong>What are some examples of projects that Rice Apps might take on?</strong></p>
+    <p> Some examples are: a servery app, a service that helps students find roommates, an android version of the Rice iPhone App, a degree planner app, and a Rice night escort service app. </p>
+    <br>
+    <p><strong>What happens to the code that Rice Apps produces?</strong></p>
+    <p> All of the code that Rice Apps creates will be open sourced on Github. </p>
+</div>
+
+<!-- Footer -->
+<footer>
+    <p class="footer-menu"><a href="http://csclub.rice.edu/">RICE CS CLUB </a> &nbsp; / &nbsp; <a href="http://www.rice.edu"> RICE UNIVERSITY </a> &nbsp; / &nbsp; <a href="https://github.com/rice-apps"> GITHUB SOURCE </a></p>
+    <p> Rice University <br> 6100 Main Street <br> Houston, TX 77005 </p>
+    <span> &copy; 2015 Rice Apps </span>
+</footer>
+</body>
+
+
+
+</html>
