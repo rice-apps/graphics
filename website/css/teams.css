@@ -15,7 +15,8 @@ html, body {
  	display:flex;
  	flex-wrap: wrap; 
  	justify-content: center;
-  
+  	align-items: center;
+  	flex-direction: row;
  }
 
 
@@ -48,15 +49,10 @@ html, body {
 
 .logo{
 	width: 270px; 
-	height: 270px;
+	height: 330px;
     display: inline;
     float:left; 
-}
-
-.logo > img{
-    width: 270px;
-    height: 270px;
-}
+} 
 
 .logo > h3{
 	font-size: 25pt;
@@ -80,7 +76,7 @@ html, body {
 ------------------------- */
 
 .featurette-divider {
-  margin: 10px 0px 50px; /* Space out the Bootstrap <hr> more */
+  margin: 10px 0px 80px; /* Space out the Bootstrap <hr> more */
 }
 
 /* Thin out the marketing headings */
@@ -94,8 +90,21 @@ html, body {
   }
 }
 
+img.featurette-image.img-responsive{
+	border: 1 px solid grey; 
+}
+
 @media (min-width: 992px) {
   .featurette-heading {
-    margin-top: 120px;
+    margin-top: 0px;
+  }
+
+  p{
+  	font-size: 18px;
+  	font-weight:300;
+  }
+
+  .lead{
+  	font-size:18px;
   }
 
