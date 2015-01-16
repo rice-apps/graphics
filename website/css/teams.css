@@ -76,3 +76,26 @@ html, body {
 	
 }
 
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 10px 0px 50px; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+.featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 120px;
+  }
+
