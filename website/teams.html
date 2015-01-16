@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/teams.css">
-
+    <link rel="stylesheet" href="css/styles.css">
 
 </head>
 
@@ -17,83 +17,89 @@
     <div class="container">
 
         <!--Logo/caption combos for the three active teams-->
-
-        <div>
-
-        <h1>ACTIVE PROJECTS</h1>
-        <div class="wrapper">
-        <ul>
+        <div class="wrapper" style = "top:10%;"> 
+        <h1 style ="margin-top: 60px;">ACTIVE PROJECTS</h1>
+        <ul class = "flexbox"> 
             <li class="logo">
-                <a href="#owlection"><img src="images\atlas-logo.png" width="270" height="270"></a>
-                <p>Owlection</p>
+                <a href="#owlection"><img src="images/shield_elections_206x239.png" width = "233px" height = "270px"></a>
+                <h3 style = "padding-right:22%">OWLECTION</h3>
             </li>
 
             <li class="logo">
-                <a href="#atlas"><img src="images\atlas-logo.png" width="270" height="270"></a>
-
-                <p>Atlas</p>
+                <a href="#atlas"><img src="images/atlas-logo.png" width="270" height="270"></a>
+                <h3>ATLAS</h3>
             </li>
 
             <li class="logo">
-                <a href="#servery"><img src="images\atlas-logo.png" width="270" height="270"></a>
-                <p>Servery</p>
+                <a href="#servery"><img src="images/atlas-logo.png" width="270" height="270"></a>
+                <h3>SERVERY</h3>
             </li>
-        </ul>`
-        </div>
-        </div>
+            <!--
+            <li class="logo">
+                <a href="#servery"><img src="images/atlas-logo.png" width="270" height="270"></a>
+                <h3 style = "margin-top:-3px;">ROOMMATE<br>FINDER</h3>
+            </li>
+        -->
+       </div>
         <br style="clear:left;"/>
         <div style="clear:both;"></div>
 
-
         <!--Screenshot/team description combos for the active projects-->
+        <!-- START THE FEATURETTES -->
 
-        <div class="wrapper">
-        <div class="row-fluid">
-            <div class="span4">
-            <div class="screenshot" id="owlection">
-                <h2>Owlection</h2>
-                <img src="images\owlection-screenshot.png" width="580" length="420">
-            </div>
-                <div class="span8" id >
-                <p>Rice Elections is a simple, secure, and transparent way for student organizations to hold online elections. Conduct a secure election for your organization by providing
-               the Rice NetIDs of the people who you wish to be eligible to vote. All voters are authenticated through Rice's NetID authentication system, and all ballots cast by voters
-                are strictly anonymous! We do not tie your vote choices with your identity. In addition, the voters of an election can see the results after a specified delay. So the
-                election is transparent! If you are interested in holding elections for your organization through Owlection, <a href="http://elections.riceapps.org/contact">contact us</a>.</p>
-                <div class="link-button"><a href="http://elections.riceapps.org/">Check out the website</a></div>
-                </div> 
-                <div class="link-button"><a href="https://github.com/rice-apps/rice-elections">Our GitHub</a></div>
-                </div>
-            </div>
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading" id = "owlection">OWLECTIONS </h2>
+          <p class="lead">Rice Elections is a simple, secure, and transparent way for student organizations to hold online elections. Conduct a secure election for your organization by providing
+                   the Rice NetIDs of the people who you wish to be eligible to vote. All voters are authenticated through Rice's NetID authentication system, and all ballots cast by voters
+                    are strictly anonymous! We do not tie your vote choices with your identity. In addition, the voters of an election can see the results after a specified delay. So the
+                    election is transparent! If you are interested in holding elections for your organization through Owlection, <a href="http://elections.riceapps.org/contact">contact us</a>.</p>
+                    <h2><span class="text-muted"><a href="http://elections.riceapps.org/">Try it out.</a><br><div class="link-button"><a href="https://github.com/rice-apps/rice-elections">Our GitHub</a></div></span></h2>
         </div>
-        <div class="screenshot" id="atlas">
-            <h2>Atlas</h2>
-            <img src="images\atlas-screenshot.png" width="580" length="420">
-
-            <p>The Rice Atlas app is an interactive and user-freindly way to locate any building on Rice's campus. Need help finding your where your class is held? Simply type the name of the building you wish to find into the Atlas search bar, and you will
-            be shown it's exact location via Google Maps. Looking for more information about a specific place on campus? The search function also provides a link that you can follow to learn more about your destination, including hours of operation, contact info, and more. In addition, the Atlas app allows you to see the current location of all of the Rice shuttles on and around campus. This app is perfect
-            for both Rice students and visitors to Rice University!</p>
-
-            <div class="link-button"><a href="http://atlas.riceapps.org/">Check out the website</a></div>
-            <div class="link-button"><a href="https://github.com/rice-apps/atlas">Our GitHub</a></div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="500x500" style = "border: 1px solid grey;" src="images/owlection-screenshot.png" data-holder-rendered="true">
         </div>
+      </div>
 
-        <div class="screenshot" id="servery">
-            <h2>Servery</h2>
-            <img src="images\servery-screenshot.png" width="580" length="420">
+      <hr class="featurette-divider">
 
-            <p>The Servery App provides the menus for all of Rice University's dining serveries in one easy-to-read location. The Servery App allows you to compare what's being served at
+      <div class="row featurette" id = "servery">
+        
+        <div class="col-md-5">
+          <h2 class="featurette-heading">SERVERY </h2>
+          <p class="lead">The Servery App provides the menus for all of Rice University's dining serveries in one easy-to-read location. The Servery App allows you to compare what's being served at
             each servery so that you, the student, can find what best suits your appetite. The app is stocked with information on current and future meals so that you can plan your day accordingly.
             Users with dining restrictions can utilize the vegetarian and/or gluten-free only functions to view what options that fit their needs are available at each servery as well. Looking
             for information on when each servery is open? The Servery App also provides the hours of operation for each servery, so that you always know where and when to find the best food!</p>
-
-            <div class="link-button"><a href="http://servery.riceapps.org/">Check out the website</a></div>
-            <div class="link-button"><a href="https://github.com/rice-apps/servery-app">Our GitHub</a></div>
+            <h2><span class="text-muted"><a href="http://servery.riceapps.org/">See for yourself.</a><br><div class="link-button"><a href="https://github.com/rice-apps/servery-app">Our GitHub</a></div></span></h2>
+            <div class="col-md-7">
+          <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="500x500" src="images\servery-screenshot.png" data-holder-rendered="true">
         </div>
-
         </div>
+      </div>
 
-        <!--Screenshot/team description combos for the under construction projects-->
+      <hr class="featurette-divider">
 
+      <div class="row featurette" id = "atlas">
+        <div class="col-md-5">
+          <h2 class="featurette-heading">ATLAS</h2> 
+          <p class="lead">The Rice Atlas app is an interactive and user-freindly way to locate any building on Rice's campus. Need help finding your where your class is held? Simply type the name of the building you wish to find into the Atlas search bar, and you will
+            be shown it's exact location via Google Maps. Looking for more information about a specific place on campus? The search function also provides a link that you can follow to learn more about your destination, including hours of operation, contact info, and more. In addition, the Atlas app allows you to see the current location of all of the Rice shuttles on and around campus. This app is perfect
+            for both Rice students and visitors to Rice University!</p>
+          <h2><span class="text-muted"><a href="http://atlas.riceapps.org/">Check it out.</a><br><div class="link-button"><a href="https://github.com/rice-apps/atlas">Our GitHub</a></div></span></h2>
+        </div>
+        <div class="col-md-7">
+          <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="500x500" src="images/atlas-screenshot.png" data-holder-rendered="true">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+      <!--Screenshot/team description combos for the under construction projects-->
+       
         <h1>UNDER CONSTRUCTION</h1>
 
         <div class="screenshot">
@@ -145,6 +151,13 @@
             <div class="link-button"><a href="https://github.com/rice-apps/petition-app">Our GitHub</a></div>
         </div>
     </div>
+
+     <!-- FOOTER (DOWN ARROW) -->
+
+    <div class = "footer-downarrow" style = "width:100%; opacity:0.1; background-color: #013;"><span class="glyphicon glyphicon-chevron-down" style="font-size:40px;"></span></div>
+
+ </div>
+ 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
