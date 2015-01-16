@@ -11,13 +11,29 @@
 	flex-direction: row;
 }
 
+.wrapper{
+    width: 100%;
+    height: auto;
+    padding-bottom: 25px;
+    display:block;
+}
+
 .logo{
 	width: 270px; 
-	height: 270px; 
+	height: 270px;
+    display: inline;
+    float:left;
+    margin-bottom: 50px;
+}
+
+.logo > img{
+    width: 270px;
+    height: 270px;
 }
 
 .logo > p{
 	font-size: 48pt;
+    text-align: center;
 }
 
 .title{
