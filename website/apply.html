@@ -6,10 +6,24 @@
         <link href= "css/bootstrap.min.css" rel = "stylesheet">
         <link href= "css/apply.css" rel= "stylesheet">
         <link href= "css/styles.css" rel= "stylesheet">
+        <link href= "css/reset.css" rel= "stylesheet"> 
+
         <script src= "//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <script src= "js/bootstrap.js"></script>
+        <script src= "js/bootstrap.min.js"></script>
+        <script src= "js/navbar.js"></script>
     </head>
-    <body>       
+    <body> 
+
+    <!-- Navigation Bar -->
+    <div class="flex navbar">
+        <span class="nav active"><a href="#"> HOME </a></span>
+        <span class="nav shift"><a href="teams.html"> PROJECTS </a></span>
+        <span class="nav shift"><a href="contact.html"> CONTACT </a></span>
+        <span class="nav shift"><a href="apply.html"> APPLY </a></span>
+        <span class="nav shift"><a href="faq.html"> FAQ </a></span>
+    </div>
+    <div class="navbar-fix"></div>
+      
         
     <div class="left-words">    
         <div class="left-texts">
@@ -263,6 +277,7 @@
                                 <td>
                                     <input type="radio" name="HTML/CSS" value="None"></td>
                             </tr>
+
                             <tr>
                                 <td>Java</td>
                                 <td>

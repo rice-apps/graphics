@@ -22,20 +22,11 @@ Design Team:
     <!-- CSS / Bootstrap -->
     <link href="css/reset.css" rel="stylesheet">
     <link href="css/home.css" rel="stylesheet">
+    <link href="css/styles.css" rel ="stylesheet">
     <!-- Javascript / JQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script>
-	// Fix Navigation on Scroll
-	$(window).scroll(function(){
-      	if ($(this).scrollTop() > 120) {
-          	$('.navbar').addClass('fix-scroll');
-          	$('.navbar-fix').addClass('space');
-      	} else {
-          	$('.navbar').removeClass('fix-scroll');
-          	$('.navbar-fix').removeClass('space');
-      	}
-  	});
-    </script>
+    <script src="js/navbar.js"></script>
+    
 </head>
 
 <body>
@@ -52,7 +43,7 @@ Design Team:
 	<span class="nav active"><a href="#"> HOME </a></span>
 	<span class="nav shift"><a href="teams.html"> PROJECTS </a></span>
 	<span class="nav shift"><a href="contact.html"> CONTACT </a></span>
-	<span class="nav shift"><a href="applyindex.html"> APPLY </a></span>
+	<span class="nav shift"><a href="apply.html"> APPLY </a></span>
 	<span class="nav shift"><a href="faq.html"> FAQ </a></span>
 </div>
 <div class="navbar-fix"></div>
