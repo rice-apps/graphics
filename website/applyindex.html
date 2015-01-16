@@ -3,12 +3,15 @@
     <head>
         <title>Form</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href= "../css/bootstrap.min.css" rel = "stylesheet">
-        <link href= "../css/styles.css" rel= "stylesheet">
+        <link href= "css/bootstrap.min.css" rel = "stylesheet">
+        <link href= "css/apply.css" rel= "stylesheet">
+        <script src= "//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src= "js/bootstrap.js"></script>
     </head>
     <body>       
-        <script src= "//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <script src= "../js/bootstrap.js"></script>
+        
+    <div class="left-words">    
+        <div class="left-texts">
         <h1>Rice Apps Application</h1>
         <p>
         Thank you for showing interest in Rice Apps! You may apply to be a team lead, a developer, or a designer by filling out the application below. Each position has its own unique responsibilities.
@@ -30,7 +33,7 @@
         
         </p>
         
-        <h5>DEVELOPLER</h5>
+        <h5>DEVELOPER</h5>
         <p>
             <ul>
                 <li>contributing ideas to the growth of your app</li>
@@ -59,38 +62,42 @@
         <p>There are ways to move up the waitlist. For team leads, please directly reach out to Xilin Liu (xal1@rice.edu) to get an early interview. For designers, submit examples of your visual/web designs to xal1@rice.edu. </p>
         
         <p>For developers, you may complete one of the listed mini-tasks for whichever project you are interested in. You must fork the project repository at www.github.com/rice-apps and then submit a pull request with your completed work. The team lead will review your submission and may offer you a position on the team. If you are declined, you will still be bumped to the top of the waitlist for that project.</p>
-    
+</div>
+
+</div>
+
+<div class= "form-scroll">
         <form>
             
             <div class="form-customized">
-                <label for="inputName">Name</label>
+                <label for="inputName">NAME</label>
                 <div class="form-customized">
-                    <input type="text" id= "inputName" placeholder="Name" maxlength="30">
+                    <input style="width:300px; height:30px" type="text" id= "inputName" placeholder="Name" maxlength="30">
                 </div>
             </div>
             
             <br>
             
             <div class="form-customized">
-                <label for="riceID">Rice.edu username</label>
+                <label for="riceID">EMAIL</label>
                 <div class="form-customized">
-                    <input type="text" id= "riceID" placeholder="example@rice.edu" maxlength="30">
+                    <input style="width:300px; height:30px" type="text" id= "riceID" placeholder="example@rice.edu" maxlength="30">
                 </div>
             </div>
             
             <br>
             
             <div class="form-customized" id="Phone">
-                <label for="inputPhone">Phone #</label>
+                <label for="inputPhone">PHONE</label>
                 <div class="form-customized">
-                    <input type="text" id= "inputPhone" placeholder="###-###-###" maxlength="12">
+                    <input style="width:300px; height:30px" type="text" id= "inputPhone" placeholder="###-###-###" maxlength="12">
                 </div>
             </div>
     
             <br>
             
             <div class="form-customized" id="Year">
-                <label for= "year">Year</label>
+                <label for= "year">YEAR</label>
                 <div class="form-customized">
                     <select id= "year">
                         <option value="freshman">Freshman</option>
@@ -104,40 +111,32 @@
             <br>
             
             <div class="form-customized" id="Major">
-                <label for="inputMajor">Major</label>
+                <label for="inputMajor">MAJOR</label>
                 <div class="form-customized">
-                    <input type="text" id= "inputMajor" placeholder="Major" maxlength="100">
+                    <input style="width:300px; height:30px" type="text" id= "inputMajor" placeholder="Major" maxlength="100">
                 </div>
             </div>
             
             <br>
             <div class="form-customized" id="position">
-                <label for= "position">I am interested in helping out as a:</label>
+                <label for= "position">I AM INTERESTED IN HELPING OUT AS A:</label>
                 <div class="form-customized">
                     <div class="checkbox">
-                      <label>
                         <input type="checkbox" value="Developer">
                         Developer (coder)
-                      </label>
                     </div>
                     <div class="checkbox">
-                      <label>
                         <input type="checkbox" value="Designer">
                         Designer (artist)
-                      </label>
                     </div>
                     <div class="checkbox">
-                      <label>
                         <input type="checkbox" value="Project Manager">
                         Project Manager (team lead)
-                      </label>
                     </div>
                     <div class="checkbox">
-                      <label>
                         <input type="checkbox" value="Other">
                         Other:
-                          <input type= "text" placeholder="other position">
-                      </label>
+                          <input style="width:300px; height:30px" type= "text" placeholder="other position">
                     </div>
                 </div>
             </div>
@@ -145,74 +144,52 @@
             <br>
             
             <div class="form-customized" id="project">
-                <label for= "project">Which project are you interested in working on? Or, propose your own in the Other box</label>
+                <label for= "project">WHICH PROJECT ARE YOU INTERESTED IN WORKING ON? <br>OR, PROPOSE YOUR OWN IN THE OTHER BOX</label>
                 <div class="form-customized">
                     <div class="checkbox">
-                      <label>
                         <input type="checkbox" value="Servery">
                         Servery App (servery.riceapps.org)
-                      </label>
                     </div>
                     <div class="checkbox">
-                      <label>
                         <input type="checkbox" value="Atlas">
                         Atlas (atlas.riceapps.org)
-                      </label>
                     </div>
                     <div class="checkbox">
-                      <label>
                         <input type="checkbox" value="Rice Elections">
                         Rice Elections (elections.riceapps.org)
-                      </label>
                     </div>
                     <div class="checkbox">
-                      <label>
                         <input type="checkbox" value="Wellbeing App;">
                         Wellbeing App
-                      </label>
                     </div>
                     <div class="checkbox">
-                      <label>
                         <input type="checkbox" value="Petition App">
                         Petition App
-                      </label>
                     </div>
                     <div class="checkbox">
-                      <label>
                         <input type="checkbox" value="Schedule Planner">
                         Schedule Planner
-                      </label>
                     </div>
                     <div class="checkbox">
-                      <label>
                         <input type="checkbox" value="Rice Village Connections">
                         Rice Village Connections (submitted idea!)
-                      </label>
                     </div>
                     <div class="checkbox">
-                      <label>
                         <input type="checkbox" value="Boba Sales notifications">
-                        Boba Sales notifications (sbumitted idea!)
-                      </label>
+                        Boba Sales notifications (submitted idea!)
                     </div>
                     <div class="checkbox">
-                      <label>
                         <input type="checkbox" value="Duncan Hall Building map">
                         Duncan Hall Building Map App (submitted idea!)
-                      </label>
                     </div>
                     <div class="checkbox">
-                      <label>
                         <input type="checkbox" value="Don't care">
                         I don't care, just get me on Rice Apps!
-                      </label>
                     </div>
                     <div class="checkbox">
-                      <label>
                         <input type="checkbox" value="Other">
                         Other:
-                          <input type= "text" placeholder="other project">
-                      </label>
+                          <input style="width:300px; height:30px" type= "text" placeholder="other project">
                     </div>
                 </div>
             </div>
@@ -220,7 +197,7 @@
             <br>
             
             <div class="form-customized" id="Interest">
-                <label for="interest">Why are you interested in Rice Apps? What do you hope to achieve as a member?</label>
+                <label for="interest">WHY ARE YOU INTERESTED IN RICE APPS? WHAT DO YOU HOPE TO ACHIEVE AS A MEMBER?</label>
                 <div class="form-customized">
                     <textarea class="form-control" rows="5" id= "interest"></textarea>
                 </div>
@@ -229,7 +206,7 @@
             <br>
             
             <div class="form-customized" id="Experience">
-                <label for="experience">What technologies/programming languages/frameworks are you comfortable with?</label>
+                <label for="experience">WHAT TECHNOLOGIES/PROGRAMMING LANGUAGES/FRAMEWORKS ARE YOU COMFORTABLE WITH?</label>
                 <div class="customized">
                     <table class="table table-striped">
                         <thead>
@@ -254,168 +231,168 @@
                         <tbody>
                             <tr>
                                 <td>HTML / CSS</td>
-                                <td><label>
-                                    <input type="radio" name="HTML/CSS" value="Expert"></label></td> 
-                                <td><label>
-                                    <input type="radio" name="HTML/CSS" value="Pretty Good"></label></td>
-                                <td><label>
-                                    <input type="radio" name="HTML/CSS" value="Played With"></label></td> 
-                                <td><label>
-                                    <input type="radio" name="HTML/CSS" value="None"></label></td>
+                                <td>
+                                    <input type="radio" name="HTML/CSS" value="Expert"></td> 
+                                <td>
+                                    <input type="radio" name="HTML/CSS" value="Pretty Good"></td>
+                                <td>
+                                    <input type="radio" name="HTML/CSS" value="Played With"></td> 
+                                <td>
+                                    <input type="radio" name="HTML/CSS" value="None"></td>
                             </tr>
                             <tr>
                                 <td>JavaScript</td>
-                                <td><label>
-                                    <input type="radio" name="HTML/CSS" value="Expert"></label></td> 
-                                <td><label>
-                                    <input type="radio" name="HTML/CSS" value="Pretty Good"></label></td>
-                                <td><label>
-                                    <input type="radio" name="HTML/CSS" value="Played With"></label></td> 
-                                <td><label>
-                                    <input type="radio" name="HTML/CSS" value="None"></label></td>
+                                <td>
+                                    <input type="radio" name="HTML/CSS" value="Expert"></td> 
+                                <td>
+                                    <input type="radio" name="HTML/CSS" value="Pretty Good"></td>
+                                <td>
+                                    <input type="radio" name="HTML/CSS" value="Played With"></td> 
+                                <td>
+                                    <input type="radio" name="HTML/CSS" value="None"></td>
                             </tr>
                             <tr>
                                 <td>Python</td>
-                                <td><label>
-                                    <input type="radio" name="HTML/CSS" value="Expert"></label></td> 
-                                <td><label>
-                                    <input type="radio" name="HTML/CSS" value="Pretty Good"></label></td>
-                                <td><label>
-                                    <input type="radio" name="HTML/CSS" value="Played With"></label></td> 
-                                <td><label>
-                                    <input type="radio" name="HTML/CSS" value="None"></label></td>
+                                <td>
+                                    <input type="radio" name="HTML/CSS" value="Expert"></td> 
+                                <td>
+                                    <input type="radio" name="HTML/CSS" value="Pretty Good"></td>
+                                <td>
+                                    <input type="radio" name="HTML/CSS" value="Played With"></td> 
+                                <td>
+                                    <input type="radio" name="HTML/CSS" value="None"></td>
                             </tr>
                             <tr>
                                 <td>Java</td>
-                                <td><label>
-                                    <input type="radio" name="HTML/CSS" value="Expert"></label></td> 
-                                <td><label>
-                                    <input type="radio" name="HTML/CSS" value="Pretty Good"></label></td>
-                                <td><label>
-                                    <input type="radio" name="HTML/CSS" value="Played With"></label></td> 
-                                <td><label>
-                                    <input type="radio" name="HTML/CSS" value="None"></label></td>
+                                <td>
+                                    <input type="radio" name="HTML/CSS" value="Expert"></td> 
+                                <td>
+                                    <input type="radio" name="HTML/CSS" value="Pretty Good"></td>
+                                <td>
+                                    <input type="radio" name="HTML/CSS" value="Played With"></td> 
+                                <td>
+                                    <input type="radio" name="HTML/CSS" value="None"></td>
                             </tr>
                             <tr>
                                 <td>C++</td>
-                                <td><label>
-                                    <input type="radio" name="HTML/CSS" value="Expert"></label></td> 
-                                <td><label>
-                                    <input type="radio" name="HTML/CSS" value="Pretty Good"></label></td>
-                                <td><label>
-                                    <input type="radio" name="HTML/CSS" value="Played With"></label></td> 
-                                <td><label>
-                                    <input type="radio" name="HTML/CSS" value="None"></label></td>
+                                <td>
+                                    <input type="radio" name="HTML/CSS" value="Expert"></td> 
+                                <td>
+                                    <input type="radio" name="HTML/CSS" value="Pretty Good"></td>
+                                <td>
+                                    <input type="radio" name="HTML/CSS" value="Played With"></td> 
+                                <td>
+                                    <input type="radio" name="HTML/CSS" value="None"></td>
                             </tr>
                             <tr>
                                 <td>PHP</td>
-                                <td><label>
-                                    <input type="radio" name="HTML/CSS" value="Expert"></label></td> 
-                                <td><label>
-                                    <input type="radio" name="HTML/CSS" value="Pretty Good"></label></td>
-                                <td><label>
-                                    <input type="radio" name="HTML/CSS" value="Played With"></label></td> 
-                                <td><label>
-                                    <input type="radio" name="HTML/CSS" value="None"></label></td>
+                                <td>
+                                    <input type="radio" name="HTML/CSS" value="Expert"></td> 
+                                <td>
+                                    <input type="radio" name="HTML/CSS" value="Pretty Good"></td>
+                                <td>
+                                    <input type="radio" name="HTML/CSS" value="Played With"></td> 
+                                <td>
+                                    <input type="radio" name="HTML/CSS" value="None"></td>
                             </tr>
                             <tr>
                                 <td>Scala</td>
-                                <td><label>
-                                    <input type="radio" name="HTML/CSS" value="Expert"></label></td> 
-                                <td><label>
-                                    <input type="radio" name="HTML/CSS" value="Pretty Good"></label></td>
-                                <td><label>
-                                    <input type="radio" name="HTML/CSS" value="Played With"></label></td> 
-                                <td><label>
-                                    <input type="radio" name="HTML/CSS" value="None"></label></td>
+                                <td>
+                                    <input type="radio" name="HTML/CSS" value="Expert"></td> 
+                                <td>
+                                    <input type="radio" name="HTML/CSS" value="Pretty Good"></td>
+                                <td>
+                                    <input type="radio" name="HTML/CSS" value="Played With"></td> 
+                                <td>
+                                    <input type="radio" name="HTML/CSS" value="None"></td>
                             </tr>
                             <tr>
                                 <td>Ruby</td>
-                                <td><label>
-                                    <input type="radio" name="HTML/CSS" value="Expert"></label></td> 
-                                <td><label>
-                                    <input type="radio" name="HTML/CSS" value="Pretty Good"></label></td>
-                                <td><label>
-                                    <input type="radio" name="HTML/CSS" value="Played With"></label></td> 
-                                <td><label>
-                                    <input type="radio" name="HTML/CSS" value="None"></label></td>
+                                <td>
+                                    <input type="radio" name="HTML/CSS" value="Expert"></td> 
+                                <td>
+                                    <input type="radio" name="HTML/CSS" value="Pretty Good"></td>
+                                <td>
+                                    <input type="radio" name="HTML/CSS" value="Played With"></td> 
+                                <td>
+                                    <input type="radio" name="HTML/CSS" value="None"></td>
                             </tr>
                             <tr>
                                 <td>SQL Databases</td>
-                                <td><label>
-                                    <input type="radio" name="HTML/CSS" value="Expert"></label></td> 
-                                <td><label>
-                                    <input type="radio" name="HTML/CSS" value="Pretty Good"></label></td>
-                                <td><label>
-                                    <input type="radio" name="HTML/CSS" value="Played With"></label></td> 
-                                <td><label>
-                                    <input type="radio" name="HTML/CSS" value="None"></label></td>
+                                <td>
+                                    <input type="radio" name="HTML/CSS" value="Expert"></td> 
+                                <td>
+                                    <input type="radio" name="HTML/CSS" value="Pretty Good"></td>
+                                <td>
+                                    <input type="radio" name="HTML/CSS" value="Played With"></td> 
+                                <td>
+                                    <input type="radio" name="HTML/CSS" value="None"></td>
                             </tr>
                             <tr>
                                 <td>NoSQL Databases</td>
-                                <td><label>
-                                    <input type="radio" name="HTML/CSS" value="Expert"></label></td> 
-                                <td><label>
-                                    <input type="radio" name="HTML/CSS" value="Pretty Good"></label></td>
-                                <td><label>
-                                    <input type="radio" name="HTML/CSS" value="Played With"></label></td> 
-                                <td><label>
-                                    <input type="radio" name="HTML/CSS" value="None"></label></td>
+                                <td>
+                                    <input type="radio" name="HTML/CSS" value="Expert"></td> 
+                                <td>
+                                    <input type="radio" name="HTML/CSS" value="Pretty Good"></td>
+                                <td>
+                                    <input type="radio" name="HTML/CSS" value="Played With"></td> 
+                                <td>
+                                    <input type="radio" name="HTML/CSS" value="None"></td>
                             </tr>
                             <tr>
-                                <td>Mobile development (iOS)</td>
-                                <td><label>
-                                    <input type="radio" name="HTML/CSS" value="Expert"></label></td> 
-                                <td><label>
-                                    <input type="radio" name="HTML/CSS" value="Pretty Good"></label></td>
-                                <td><label>
-                                    <input type="radio" name="HTML/CSS" value="Played With"></label></td> 
-                                <td><label>
-                                    <input type="radio" name="HTML/CSS" value="None"></label></td>
+                                <td>Mobile Development (iOS)</td>
+                                <td>
+                                    <input type="radio" name="HTML/CSS" value="Expert"></td> 
+                                <td>
+                                    <input type="radio" name="HTML/CSS" value="Pretty Good"></td>
+                                <td>
+                                    <input type="radio" name="HTML/CSS" value="Played With"></td> 
+                                <td>
+                                    <input type="radio" name="HTML/CSS" value="None"></td>
                             </tr>
                             <tr>
-                                <td>Mobile development (Android)</td>
-                                <td><label>
-                                    <input type="radio" name="HTML/CSS" value="Expert"></label></td> 
-                                <td><label>
-                                    <input type="radio" name="HTML/CSS" value="Pretty Good"></label></td>
-                                <td><label>
-                                    <input type="radio" name="HTML/CSS" value="Played With"></label></td> 
-                                <td><label>
-                                    <input type="radio" name="HTML/CSS" value="None"></label></td>
+                                <td>Mobile Development (Android)</td>
+                                <td>
+                                    <input type="radio" name="HTML/CSS" value="Expert"></td> 
+                                <td>
+                                    <input type="radio" name="HTML/CSS" value="Pretty Good"></td>
+                                <td>
+                                    <input type="radio" name="HTML/CSS" value="Played With"></td> 
+                                <td>
+                                    <input type="radio" name="HTML/CSS" value="None"></td>
                             </tr>
                             <tr>
                                 <td>Parse</td>
-                                <td><label>
-                                    <input type="radio" name="HTML/CSS" value="Expert"></label></td> 
-                                <td><label>
-                                    <input type="radio" name="HTML/CSS" value="Pretty Good"></label></td>
-                                <td><label>
-                                    <input type="radio" name="HTML/CSS" value="Played With"></label></td> 
-                                <td><label>
-                                    <input type="radio" name="HTML/CSS" value="None"></label></td>
+                                <td>
+                                    <input type="radio" name="HTML/CSS" value="Expert"></td> 
+                                <td>
+                                    <input type="radio" name="HTML/CSS" value="Pretty Good"></td>
+                                <td>
+                                    <input type="radio" name="HTML/CSS" value="Played With"></td> 
+                                <td>
+                                    <input type="radio" name="HTML/CSS" value="None"></td>
                             </tr>
                             <tr>
                                 <td>Google App Engine</td>
-                                <td><label>
-                                    <input type="radio" name="HTML/CSS" value="Expert"></label></td> 
-                                <td><label>
-                                    <input type="radio" name="HTML/CSS" value="Pretty Good"></label></td>
-                                <td><label>
-                                    <input type="radio" name="HTML/CSS" value="Played With"></label></td> 
-                                <td><label>
-                                    <input type="radio" name="HTML/CSS" value="None"></label></td>
+                                <td>
+                                    <input type="radio" name="HTML/CSS" value="Expert"></td> 
+                                <td>
+                                    <input type="radio" name="HTML/CSS" value="Pretty Good"></td>
+                                <td>
+                                    <input type="radio" name="HTML/CSS" value="Played With"></td> 
+                                <td>
+                                    <input type="radio" name="HTML/CSS" value="None"></td>
                             </tr>
                             <tr>
                                 <td>Amazon AWS</td>
-                                <td><label>
-                                    <input type="radio" name="HTML/CSS" value="Expert"></label></td> 
-                                <td><label>
-                                    <input type="radio" name="HTML/CSS" value="Pretty Good"></label></td>
-                                <td><label>
-                                    <input type="radio" name="HTML/CSS" value="Played With"></label></td> 
-                                <td><label>
-                                    <input type="radio" name="HTML/CSS" value="None"></label></td>
+                                <td>
+                                    <input type="radio" name="HTML/CSS" value="Expert"></td> 
+                                <td>
+                                    <input type="radio" name="HTML/CSS" value="Pretty Good"></td>
+                                <td>
+                                    <input type="radio" name="HTML/CSS" value="Played With"></td> 
+                                <td>
+                                    <input type="radio" name="HTML/CSS" value="None"></td>
                             </tr>
                         </tbody>
                                 
@@ -426,7 +403,7 @@
             <br>
             
             <div class="form-customized" id="Other SKills">
-                <label for="other skills">Do you have other skills or experiences aside from the ones listed above? 
+                <label for="other skills">DO YOU HAVE OTHER SKILLS OR EXPERIENCES ASIDE FROM THE ONES LISTED ABOVE?
                     <br>ie. Windows Phone, specific frameworks like AngularJS or Django</label>
                 <div class="customized">
                     <textarea class="form-control" rows="5" id= "other skills">
@@ -435,9 +412,8 @@
             </div>
             
             <br>
-            
             <div class="form-customized" id="Comments">
-                <label for="comments">Additional comments</label>
+                <label for="comments">ADDITIONAL COMMENTS</label>
                 <div class="customized">
                     <textarea class="form-control" rows="5" id= "coments"></textarea>
                 </div>
@@ -448,6 +424,13 @@
             <button type="submit" class="btn btn-default">Submit</button>
             
         </form>
+    
+    <div class = "footer">
+        <span class="glyphicon glyphicon-chevron-down" style="font-size:40px; color: #8DB6D3;"></span>
+</div>
+</div>
+
+
         
     </body>
     

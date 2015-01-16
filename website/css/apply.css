@@ -1,0 +1,75 @@
+/** Fonts **/
+@font-face{
+    font-family: Bebas;
+    src: url('BebasNeue.otf');
+}
+
+@font-face{
+    font-family: GeoSans;
+    src: url('GeosansLight.ttf');
+}
+
+
+
+
+.left-words {
+    width: 50%;
+    height: 1000px;
+    display: inline-block;
+    background-color: #9FAFBD;
+    opacity: 50%;
+    padding: 15px;
+}
+.form-scroll {
+    width: 50%;
+    height: 1000px;
+    float: right;
+    overflow: scroll;
+    display: inline-block;
+    background-color: #8DB6D3;
+    padding: 15px;
+    padding-bottom: 80px;
+    font-family: GeoSans;
+}
+
+.footer{
+    width:50%;
+    bottom:20px;
+    position:fixed;
+    background-color: black;
+    opacity: .5;
+    color: white;
+    height: 40px; 
+    text-align:center;
+}
+
+
+
+
+
+
+h1 {
+    font-family: Bebas;
+    font-size:70px;
+    
+}
+
+.left-texts {
+    font-family: GeoSans;
+}
+
+
+
+.checkbox {
+    margin-left:20px;
+}
+
+label {
+    font-size: 18px;
+}
+
+
+
+.checkbox {
+    font-size: 20
+}
