@@ -52,6 +52,7 @@
 	.wallpaper{
 		position:  fixed; 
 		max-width: 50%;
+		top: 5px;
 		-webkit-animation-name: testAnim;
 		-webkit-animation-duration: 5s;
 		-webkit-animation-iteration-count: infinite;

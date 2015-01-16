@@ -1,0 +1,35 @@
+
+
+.flex{
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+}
+
+.logo{
+	width: 270px; 
+	height: 270px; 
+}
+
+.logo > p{
+	font-size: 48pt;
+}
+
+.title{
+	
+}
+
+.screenshots{
+	width: 580px
+	height: 420px
+}
+
+.team-description{
+	
+}
+
