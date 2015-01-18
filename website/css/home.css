@@ -9,8 +9,7 @@ a{
 }
 p, span{
     font-family: Open Sans R;
-    color: #384045;
-    font-size: 14px;
+    color: #384045; 
 }
 /** Helper Classes **/
 .section{

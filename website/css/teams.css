@@ -1,12 +1,7 @@
 
 html, body {
-    		height: 100%;
-    		margin: 0;
-    	}
-
-body{ 
-    justify-content: center;
-    align-items: center;
+	height: 100%;
+	margin: 0;
 }
  
 
@@ -48,34 +43,29 @@ body{
 
 .logo{
 	width: 270px; 
-	height: 330px;
-    display: inline;
-    float:left; 
+	height: 330px; 
 } 
 
-.logo > h3{
+h2.caption{
 	font-size: 25pt;
     text-align: center; 
-}
+} 
 
-.h1{
+.screenshot{
+	width: 580px;
+	height: 420px;
+} 
 
-}
-
-.screenshots{
-	width: 580px
-	height: 420px
-}
-
-.team-description{
-	
+.in_progress{
+	padding-top:30px;
+	padding-bottom: 30px;
 }
 
 /* Featurettes
 ------------------------- */
 
 .featurette-divider {
-  margin: 10px 0px 80px; /* Space out the Bootstrap <hr> more */
+  margin: 40px 0px 40px; /* Space out the Bootstrap <hr> more */
 }
 
 /* Thin out the marketing headings */
@@ -86,11 +76,14 @@ body{
 }
 .featurette-heading {
     font-size: 50px;
-  }
+}
+
+.row.featurette{
+	height:100vh;
 }
 
 img.featurette-image.img-responsive{
-	border: 1 px solid grey; 
+	border: 1px dotted grey; 
 }
 
 @media (min-width: 992px) {
@@ -98,12 +91,94 @@ img.featurette-image.img-responsive{
     margin-top: 0px;
   }
 
-  p{
-  	font-size: 18px;
-  	font-weight:300;
-  }
+p{ 
+	font-weight:300;
+}
 
-  .lead{
-  	font-size:18px;
-  }
+/** **/
+
+@media screen and (max-width:870px) {
+    .container .main .chrome .top {
+        display: none
+    }
+}
+
+@media screen and (max-width:755px) {
+    .container .main .chrome, .container#current .main .text {
+        float: none;
+        width: 100%
+    }
+
+    .container .main .chrome .content {
+        max-height: 400px
+    }
+
+    .container .main .chrome .content {
+        max-height: 200px
+    }
+
+    /** **/
+
+.container .main .chrome {
+    background: url(images/internet-bar.jpg) no-repeat left top;
+    background-size: contain;
+    width: 60%;
+    position: relative;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    overflow: hidden;
+    float: left
+}
+
+.container .main .chrome .url {
+    position: absolute;
+    left: 13%;
+    top: 1.6%;
+    font-size: .875em;
+    line-height: 1
+}
+
+.container .main .chrome img {
+    width: 100%;
+    display: block;
+    height: auto
+}
+
+.container .main .chrome .content {
+    max-height: 700px;
+    overflow: scroll
+}
+
+.container .main .flip .chrome {
+    float: right
+}
+
+.container .main .chrome .url {
+    position: absolute;
+    left: 13%;
+    top: 1.6%;
+    font-size: .875em;
+    line-height: 1
+}
+
+.container .arrow {
+    height: 26px;
+    width: 50px;
+    text-indent: -9999px;
+    display: block;
+    left: 50%;
+    position: absolute;
+    bottom: 10%;
+    margin-left: -25px;
+    background: url(images/arrow.png) no-repeat;
+    background-size: 50px 26px
+}
+
+.container .main .chrome img {
+    width: 100%;
+    display: block;
+    height: auto
+}
+
 
