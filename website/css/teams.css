@@ -119,7 +119,7 @@ p{
 
     /** **/
 
-.container .main .chrome {
+div.chrome {
     background: url(images/internet-bar.jpg) no-repeat left top;
     background-size: contain;
     width: 60%;
@@ -131,7 +131,7 @@ p{
     float: left
 }
 
-.container .main .chrome .url {
+ div.chrome .url {
     position: absolute;
     left: 13%;
     top: 1.6%;
@@ -139,28 +139,20 @@ p{
     line-height: 1
 }
 
-.container .main .chrome img {
+ div.chrome img {
     width: 100%;
     display: block;
     height: auto
 }
 
-.container .main .chrome .content {
+div.chrome .content {
     max-height: 700px;
     overflow: scroll
 }
 
-.container .main .flip .chrome {
+div.chrome {
     float: right
-}
-
-.container .main .chrome .url {
-    position: absolute;
-    left: 13%;
-    top: 1.6%;
-    font-size: .875em;
-    line-height: 1
-}
+} 
 
 .container .arrow {
     height: 26px;
