@@ -79,11 +79,18 @@ p, span{
         text-align: center;
     }
 
-/** About **/
+/** About / FAQ **/
 #about, #faq{
     background-color: #E7F6FF;
 }
 
+/** Contact **/
+form{
+    margin-left: 5%;
+}
+form > span{
+    display: block;
+}
 
 /** Footer **/
 footer{
