@@ -58,26 +58,43 @@ Design Team:
 </div>
 <div class="navbar-fix"></div>
 
-<!-- Bugs -->
-<div class="section">
-    <div class="section-title">
-        <span class="subtitle"> REPORT A BUG </span>
+<div class="flex-form">
+    <!-- Bugs -->
+    <div class="section half">
+        <div class="section-title-long">
+            <span class="subtitle"> REPORT A BUG </span>
+        </div>
+        <form action="/bugs">
+            <div class="input-area">
+                <input type="text" id="name" class="input-field" placeholder="Name">
+            </div>
+            <div class="input-area">
+                <input type="text" id="email" class="input-field" placeholder="Email">
+            </div>
+            <br><br>
+            <div class="input-area">
+                <textarea rows="5" cols="30" id="bug" placeholder="Please describe the problem, outline steps to reproduce, and any workarounds you may have found."></textarea>
+            </div>
+            <input type="submit">
+        </form>
     </div>
-    <form>
-        <span> Name </span>
-        <input type="text">
-        <span> Email </span>
-        <input type="text">
-        <br>
-        <span> Bug Description </span>
-        <textarea rows="5" width="200px"></textarea>
-    </form>
-</div>
 
-<!-- Ideas -->
-<div class="section">
-    <div class="section-title">
-        <span class="subtitle"> SUBMIT AN IDEA </span>
+    <!-- Ideas -->
+    <div class="section half">
+        <div class="section-title-long">
+            <span class="subtitle"> SUBMIT AN IDEA </span>
+        </div>
+        <form action="/ideas">
+            <div class="input-area">
+                <input type="text" id="name" class="input-field" placeholder="Name">
+                <input type="text" id="email" class="input-field" placeholder="Email">
+            </div>
+            <br><br>
+            <div class="input-area">
+                <textarea rows="5" cols="30" id="idea" placeholder="Please describe the problem, outline steps to reproduce, and any workarounds you may have found."></textarea>
+            </div>
+            <input type="submit">
+        </form>
     </div>
 </div>
 
