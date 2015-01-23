@@ -4,14 +4,15 @@
         <title>Form</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href= "css/bootstrap.min.css" rel = "stylesheet">
-        <link href= "css/apply.css" rel= "stylesheet">
         <link href= "css/styles.css" rel= "stylesheet">
         <link href= "css/reset.css" rel= "stylesheet"> 
+        <link href= "css/newapply.css" rel= "stylesheet">
 
         <script src= "//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script src= "js/bootstrap.min.js"></script>
         <script src= "js/navbar.js"></script>
     </head>
+<<<<<<< Updated upstream
     <body>
 
     <!-- Logo Header -->
@@ -20,73 +21,82 @@
             <a href="home.html"><img src="images/logo-02.png" width="330" height="100"></a>
         </div>
     </div>
+=======
+    <body> 
+        <div class="flex navbar">
+            <span class="nav active"><a href="home.html"> HOME </a></span>
+            <span class="nav shift"><a href="teams.html"> PROJECTS </a></span>
+            <span class="nav shift"><a href="contact.html"> CONTACT </a></span>
+            <span class="nav shift"><a href="#"> APPLY </a></span>
+            <span class="nav shift"><a href="faq.html"> FAQ </a></span>
+        </div>
+        <div class="navbar-fix"></div>
+>>>>>>> Stashed changes
 
-    <!-- Navigation Bar -->
-    <div class="flex navbar">
-        <span class="nav active"><a href="home.html"> HOME </a></span>
-        <span class="nav shift"><a href="teams.html"> PROJECTS </a></span>
-        <span class="nav shift"><a href="contact.html"> CONTACT </a></span>
-        <span class="nav shift"><a href="#"> APPLY </a></span>
-        <span class="nav shift"><a href="faq.html"> FAQ </a></span>
-    </div>
-    <div class="navbar-fix"></div>
-      
-        
-    <div class="left-words">    
-        <div class="left-texts">
-        <h1>Rice Apps Application</h1>
-        <p>
-        Thank you for showing interest in Rice Apps! You may apply to be a team lead, a developer, or a designer by filling out the application below. Each position has its own unique responsibilities.
-       </p>
 
-        <h5>TEAM LEAD</h5>
-        <p>
-            <ul>
-                <li>directing the growth of your app</li>
-                <li>delegating tasks for team members</li>
-                <li>presenting at the Rice Apps Showcase at the end of the year</li>
-                <li>attending one of the three coding parties per week</li>
-                <li>ensuring the entire team attends the same coding party</li>
-                <li>mentoring inexperienced team members if needed</li>
-                <li>relaying information from the officers to your team and vice versa</li>
-                <li>acting as a representative and point of contact for your app</li>
-                <li>code reviewing all pull requests and merging onto master branch</li>
-            </ul>
-        
-        </p>
-        
-        <h5>DEVELOPER</h5>
-        <p>
-            <ul>
-                <li>contributing ideas to the growth of your app</li>
-                <li>completing tasks delegated to you by the team lead </li>
-                <li>presenting at the Rice Apps Showcase at the end of the year</li>
-                <li>attending one of the three coding parties per week</li>
-            </ul>
-        
-        </p>
-        
-        <h5>DESIGNER</h5>
-        <p>
-            <ul>
-                <li>contributing ideas to the growth of your app</li>
-                <li>completing tasks delegated to you by the team lead </li>
-                <li>attending the general meeting every first Saturday of the month </li>
-                <li>attending weekly scrums</li>
-                <li>presenting at the Rice Apps Showcase at the end of the year  </li>
-                <li>attending one of the three coding parties per week</li>
-            </ul>
-        
-        </p>
-        
-        <p>Please indicate on the application which positions you are interested in. Team leads and designers will be added to the end of the waitlist for their respective positions, but developers will be added to the end of the waitlist for specific projects. Applications are accepted on a rolling basis. Your position on the waitlist is determined solely by the timestamp of your application submission. Note that team leads that get off the waitlist will require an interview.           </p>
+        <div class="intro">
+            <h1>Rice Apps Application</h1>
+            <p>
+            Thank you for showing interest in Rice Apps! You may apply to be a team lead, a developer, or a designer by filling out the application below. Each position has its own unique responsibilities.
+           </p>
 
-        <p>There are ways to move up the waitlist. For team leads, please directly reach out to Xilin Liu (xal1@rice.edu) to get an early interview. For designers, submit examples of your visual/web designs to xal1@rice.edu. </p>
-        
-        <p>For developers, you may complete one of the listed mini-tasks for whichever project you are interested in. You must fork the project repository at www.github.com/rice-apps and then submit a pull request with your completed work. The team lead will review your submission and may offer you a position on the team. If you are declined, you will still be bumped to the top of the waitlist for that project.</p>
-</div>
+        </div>
+        <div class= "descriptions">
+        <div class="heads">
+            <h5>TEAM LEAD</h5>
+            <h5>DEVELOPER</h5>
+            <h5>DESIGNER</h5>
+            <h5>MINI TASKS</h5>
+        </div>
+        <div class="team-lead">
+             <p>
+                <ul>
+                    <li>- directing the growth of your app</li>
+                    <li>- delegating tasks for team members</li>
+                    <li>- presenting at the Rice Apps Showcase at the end of the year</li>
+                    <li>- attending one of the three coding parties per week</li>
+                    <li>- ensuring the entire team attends the same coding party</li>
+                    <li>- mentoring inexperienced team members if needed</li>
+                    <li>- relaying information from the officers to your team and vice versa</li>
+                    <li>- acting as a representative and point of contact for your app</li>
+                    <li>- code reviewing all pull requests and merging onto master branch</li>
+                </ul>
 
-</div>
+            </p>
+        </div>
+
+        <div class="developer">   
+            <p>
+                <ul>
+                    <li>- contributing ideas to the growth of your app</li>
+                    <li>- completing tasks delegated to you by the team lead </li>
+                    <li>- presenting at the Rice Apps Showcase at the end of the year</li>
+                    <li>- attending one of the three coding parties per week</li>
+                </ul>
+
+            </p>
+        </div>   
+        <div class="designer">
+            <p>
+                <ul>
+                    <li>- contributing ideas to the growth of your app</li>
+                    <li>- completing tasks delegated to you by the team lead </li>
+                    <li>- attending the general meeting every first Saturday of the month </li>
+                    <li>- attending weekly scrums</li>
+                    <li>- presenting at the Rice Apps Showcase at the end of the year  </li>
+                    <li>- attending one of the three coding parties per week</li>
+                </ul>
+
+            </p>
+        </div>
+        <div class="info">
+            <p>Please indicate on the application which positions you are interested in. Team leads and designers will be added to the end of the waitlist for their respective positions, but developers will be added to the end of the waitlist for specific projects. Applications are accepted on a rolling basis. Your position on the waitlist is determined solely by the timestamp of your application submission. Note that team leads that get off the waitlist will require an interview.           </p>
+
+            <p>There are ways to move up the waitlist. For team leads, please directly reach out to Xilin Liu (xal1@rice.edu) to get an early interview. For designers, submit examples of your visual/web designs to xal1@rice.edu. </p>
+
+            <p>For developers, you may complete one of the listed mini-tasks for whichever project you are interested in. You must fork the project repository at www.github.com/rice-apps and then submit a pull request with your completed work. The team lead will review your submission and may offer you a position on the team. If you are declined, you will still be bumped to the top of the waitlist for that project.</p>
+        </div>
+        </div>
 
 <div class= "form-scroll">
         <form>
@@ -265,157 +275,157 @@
                             <tr>
                                 <td>JavaScript</td>
                                 <td>
-                                    <input type="radio" name="HTML/CSS" value="Expert"></td> 
+                                    <input type="radio" name="JavaScript" value="Expert"></td> 
                                 <td>
-                                    <input type="radio" name="HTML/CSS" value="Pretty Good"></td>
+                                    <input type="radio" name="JavaScript" value="Pretty Good"></td>
                                 <td>
-                                    <input type="radio" name="HTML/CSS" value="Played With"></td> 
+                                    <input type="radio" name="JavaScript" value="Played With"></td> 
                                 <td>
-                                    <input type="radio" name="HTML/CSS" value="None"></td>
+                                    <input type="radio" name="JavaScript" value="None"></td>
                             </tr>
                             <tr>
                                 <td>Python</td>
                                 <td>
-                                    <input type="radio" name="HTML/CSS" value="Expert"></td> 
+                                    <input type="radio" name="Python" value="Expert"></td> 
                                 <td>
-                                    <input type="radio" name="HTML/CSS" value="Pretty Good"></td>
+                                    <input type="radio" name="Python" value="Pretty Good"></td>
                                 <td>
-                                    <input type="radio" name="HTML/CSS" value="Played With"></td> 
+                                    <input type="radio" name="Python" value="Played With"></td> 
                                 <td>
-                                    <input type="radio" name="HTML/CSS" value="None"></td>
+                                    <input type="radio" name="Python" value="None"></td>
                             </tr>
 
                             <tr>
                                 <td>Java</td>
                                 <td>
-                                    <input type="radio" name="HTML/CSS" value="Expert"></td> 
+                                    <input type="radio" name="Java" value="Expert"></td> 
                                 <td>
-                                    <input type="radio" name="HTML/CSS" value="Pretty Good"></td>
+                                    <input type="radio" name="Java" value="Pretty Good"></td>
                                 <td>
-                                    <input type="radio" name="HTML/CSS" value="Played With"></td> 
+                                    <input type="radio" name="Java" value="Played With"></td> 
                                 <td>
-                                    <input type="radio" name="HTML/CSS" value="None"></td>
+                                    <input type="radio" name="Java" value="None"></td>
                             </tr>
                             <tr>
                                 <td>C++</td>
                                 <td>
-                                    <input type="radio" name="HTML/CSS" value="Expert"></td> 
+                                    <input type="radio" name="C++" value="Expert"></td> 
                                 <td>
-                                    <input type="radio" name="HTML/CSS" value="Pretty Good"></td>
+                                    <input type="radio" name="C++" value="Pretty Good"></td>
                                 <td>
-                                    <input type="radio" name="HTML/CSS" value="Played With"></td> 
+                                    <input type="radio" name="C++" value="Played With"></td> 
                                 <td>
-                                    <input type="radio" name="HTML/CSS" value="None"></td>
+                                    <input type="radio" name="C++" value="None"></td>
                             </tr>
                             <tr>
                                 <td>PHP</td>
                                 <td>
-                                    <input type="radio" name="HTML/CSS" value="Expert"></td> 
+                                    <input type="radio" name="PHP" value="Expert"></td> 
                                 <td>
-                                    <input type="radio" name="HTML/CSS" value="Pretty Good"></td>
+                                    <input type="radio" name="PHP" value="Pretty Good"></td>
                                 <td>
-                                    <input type="radio" name="HTML/CSS" value="Played With"></td> 
+                                    <input type="radio" name="PHP" value="Played With"></td> 
                                 <td>
-                                    <input type="radio" name="HTML/CSS" value="None"></td>
+                                    <input type="radio" name="PHP" value="None"></td>
                             </tr>
                             <tr>
                                 <td>Scala</td>
                                 <td>
-                                    <input type="radio" name="HTML/CSS" value="Expert"></td> 
+                                    <input type="radio" name="Scala" value="Expert"></td> 
                                 <td>
-                                    <input type="radio" name="HTML/CSS" value="Pretty Good"></td>
+                                    <input type="radio" name="Scala" value="Pretty Good"></td>
                                 <td>
-                                    <input type="radio" name="HTML/CSS" value="Played With"></td> 
+                                    <input type="radio" name="Scala" value="Played With"></td> 
                                 <td>
-                                    <input type="radio" name="HTML/CSS" value="None"></td>
+                                    <input type="radio" name="Scala" value="None"></td>
                             </tr>
                             <tr>
                                 <td>Ruby</td>
                                 <td>
-                                    <input type="radio" name="HTML/CSS" value="Expert"></td> 
+                                    <input type="radio" name="Ruby" value="Expert"></td> 
                                 <td>
-                                    <input type="radio" name="HTML/CSS" value="Pretty Good"></td>
+                                    <input type="radio" name="Ruby" value="Pretty Good"></td>
                                 <td>
-                                    <input type="radio" name="HTML/CSS" value="Played With"></td> 
+                                    <input type="radio" name="Ruby" value="Played With"></td> 
                                 <td>
-                                    <input type="radio" name="HTML/CSS" value="None"></td>
+                                    <input type="radio" name="Ruby" value="None"></td>
                             </tr>
                             <tr>
                                 <td>SQL Databases</td>
                                 <td>
-                                    <input type="radio" name="HTML/CSS" value="Expert"></td> 
+                                    <input type="radio" name="SQL" value="Expert"></td> 
                                 <td>
-                                    <input type="radio" name="HTML/CSS" value="Pretty Good"></td>
+                                    <input type="radio" name="SQL" value="Pretty Good"></td>
                                 <td>
-                                    <input type="radio" name="HTML/CSS" value="Played With"></td> 
+                                    <input type="radio" name="SQL" value="Played With"></td> 
                                 <td>
-                                    <input type="radio" name="HTML/CSS" value="None"></td>
+                                    <input type="radio" name="SQL" value="None"></td>
                             </tr>
                             <tr>
                                 <td>NoSQL Databases</td>
                                 <td>
-                                    <input type="radio" name="HTML/CSS" value="Expert"></td> 
+                                    <input type="radio" name="NoSQL" value="Expert"></td> 
                                 <td>
-                                    <input type="radio" name="HTML/CSS" value="Pretty Good"></td>
+                                    <input type="radio" name="NoSQL" value="Pretty Good"></td>
                                 <td>
-                                    <input type="radio" name="HTML/CSS" value="Played With"></td> 
+                                    <input type="radio" name="NoSQL" value="Played With"></td> 
                                 <td>
-                                    <input type="radio" name="HTML/CSS" value="None"></td>
+                                    <input type="radio" name="NoSQL" value="None"></td>
                             </tr>
                             <tr>
                                 <td>Mobile Development (iOS)</td>
                                 <td>
-                                    <input type="radio" name="HTML/CSS" value="Expert"></td> 
+                                    <input type="radio" name="NoSQL" value="Expert"></td> 
                                 <td>
-                                    <input type="radio" name="HTML/CSS" value="Pretty Good"></td>
+                                    <input type="radio" name="NoSQL" value="Pretty Good"></td>
                                 <td>
-                                    <input type="radio" name="HTML/CSS" value="Played With"></td> 
+                                    <input type="radio" name="NoSQL" value="Played With"></td> 
                                 <td>
-                                    <input type="radio" name="HTML/CSS" value="None"></td>
+                                    <input type="radio" name="NoSQL" value="None"></td>
                             </tr>
                             <tr>
                                 <td>Mobile Development (Android)</td>
                                 <td>
-                                    <input type="radio" name="HTML/CSS" value="Expert"></td> 
+                                    <input type="radio" name="Mobile" value="Expert"></td> 
                                 <td>
-                                    <input type="radio" name="HTML/CSS" value="Pretty Good"></td>
+                                    <input type="radio" name="Mobile" value="Pretty Good"></td>
                                 <td>
-                                    <input type="radio" name="HTML/CSS" value="Played With"></td> 
+                                    <input type="radio" name="Mobile" value="Played With"></td> 
                                 <td>
-                                    <input type="radio" name="HTML/CSS" value="None"></td>
+                                    <input type="radio" name="Mobile" value="None"></td>
                             </tr>
                             <tr>
                                 <td>Parse</td>
                                 <td>
-                                    <input type="radio" name="HTML/CSS" value="Expert"></td> 
+                                    <input type="radio" name="Parse" value="Expert"></td> 
                                 <td>
-                                    <input type="radio" name="HTML/CSS" value="Pretty Good"></td>
+                                    <input type="radio" name="Parse" value="Pretty Good"></td>
                                 <td>
-                                    <input type="radio" name="HTML/CSS" value="Played With"></td> 
+                                    <input type="radio" name="Parse" value="Played With"></td> 
                                 <td>
-                                    <input type="radio" name="HTML/CSS" value="None"></td>
+                                    <input type="radio" name="Parse" value="None"></td>
                             </tr>
                             <tr>
                                 <td>Google App Engine</td>
                                 <td>
-                                    <input type="radio" name="HTML/CSS" value="Expert"></td> 
+                                    <input type="radio" name="Google" value="Expert"></td> 
                                 <td>
-                                    <input type="radio" name="HTML/CSS" value="Pretty Good"></td>
+                                    <input type="radio" name="Google" value="Pretty Good"></td>
                                 <td>
-                                    <input type="radio" name="HTML/CSS" value="Played With"></td> 
+                                    <input type="radio" name="Google" value="Played With"></td> 
                                 <td>
-                                    <input type="radio" name="HTML/CSS" value="None"></td>
+                                    <input type="radio" name="Google" value="None"></td>
                             </tr>
                             <tr>
                                 <td>Amazon AWS</td>
                                 <td>
-                                    <input type="radio" name="HTML/CSS" value="Expert"></td> 
+                                    <input type="radio" name="Amazon" value="Expert"></td> 
                                 <td>
-                                    <input type="radio" name="HTML/CSS" value="Pretty Good"></td>
+                                    <input type="radio" name="Amazon" value="Pretty Good"></td>
                                 <td>
-                                    <input type="radio" name="HTML/CSS" value="Played With"></td> 
+                                    <input type="radio" name="Amazon" value="Played With"></td> 
                                 <td>
-                                    <input type="radio" name="HTML/CSS" value="None"></td>
+                                    <input type="radio" name="Amazon" value="None"></td>
                             </tr>
                         </tbody>
                                 
