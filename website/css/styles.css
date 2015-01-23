@@ -8,8 +8,26 @@
     font-family: GeoSans;
     src: url('GeosansLight.ttf');
 }
+ 
+@font-face{
+    font-family: Geo Sans;
+    src: url('../fonts/GeosansLight.ttf');
+}
+@font-face{
+    font-family: Open Sans L;
+    src: url('../fonts/OpenSans-Light.ttf');
+}
+@font-face{
+    font-family: Open Sans R;
+    src: url('../fonts/OpenSans-Regular.ttf');
+}
+@font-face{
+    font-family: Open Sans SB;
+    src: url('../fonts/OpenSans-Semibold.ttf');
+}
+
 /** --------------------------- **/
-		/**  HEADINGS **/
+	/**  HEADING FONTS **/
 /** --------------------------- **/
 
 h1,h2,h3 {
@@ -21,43 +39,145 @@ h1{
 	font-size:70px;
 }
 
+h2{
+    font-size: 40px;
+}
+h4{
+    color: #A9A9A9;
+}
+
+p{
+    font-size: 14px;
+}
+
+#dead{
+    color:grey;
+}
+
+/** ------ FLEX STUFF -------**/
+
+.flex{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+
+/** ------- NAVBAR ------- **/
+    .navbar{
+    width: 100%;
+    height: 60px;
+    position: relative;
+    background-color: #292F33;
+    z-index: 10;
+}
+    .nav > a{
+        font-family: Geo Sans;
+        border: 2px solid #292F33;
+        padding: 5px;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    }
+        .nav > a:hover{
+            border: 2px solid #2F363A;
+        }
+        .active > a{
+            border: 2px solid #2F363A;
+        }
+    .shift{
+        margin-left: 5%;
+    }
+    .nav{
+        margin-top: 19px;
+    }
+
+/** Header + Nav **/
+    #header{
+        width: 100%;
+        height: 100px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: #2F363A;
+    }
+    .logo{
+        width: 330px;
+        height: 100px;
+        margin: 0 auto;
+    }
+
+    .fix-scroll{
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+    .space{
+        width: 100%;
+        height: 60px;
+    }
 /** --------------------------- **/
- 
+
+/** MARGINS AND BACKGROUND COLORS **/
 
 button {
-    margin-left: 10px
-    margin-bottom: 10px
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
 
 .form-customized {
-    margin-left: 10px
-} 
-
-.btn {
-    
-}
+    margin-left: 10px;
+}  
 
 button {
-    margin: 10px 10px 10px 10px
-        
-} 
+    margin: 10px 10px 10px 10px;     
+}
+
 p {
-    margin-left: 10px
-    color: #A9A9A9
+    margin-left: 10px;
 }
-
-input {
-    
-} 
-
-#lead {
-    
-}
-
+  
 .radio {
     margin-left: 10px
 }
 
+
+
+/** Footer **/
+footer{
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #2F363A;
+    font-family: Open Sans L;
+    text-align: center;
+}
+    footer > p{
+        width: 200px;
+        margin: 0 auto;
+        color: #797C7F;
+        font-size: 12px;
+        padding-bottom: 15px;
+    }
+    .footer-menu{
+        width: auto;
+        margin-bottom: 10px;
+    }
+    .footer-menu > a{
+        font-size: 11px;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    }
+        .footer-menu > a:hover{
+            color: #797C7F;
+        }
+    footer > span{
+        color: #BBBDC0;
+        font-size: 12px;
+    }
+
+
+
+/**----- DOWN ARROW BAR -----**/
 
 .footer-downarrow{
     width:50%;
@@ -69,3 +189,13 @@ input {
     height: 40px; 
     text-align:center;
 }
+
+/** ---- SPACER ------**/
+.spacer{
+    padding-top: 20px;
+    padding-bottom:20px;
+}
+
+/** MISCELLANEOUS **/
+
+ul{list-style-type: none;}

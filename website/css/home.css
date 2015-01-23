@@ -1,20 +1,3 @@
-/** Fonts **/
-@font-face{
-    font-family: Geo Sans;
-    src: url('../fonts/GeosansLight.ttf');
-}
-@font-face{
-    font-family: Open Sans L;
-    src: url('../fonts/OpenSans-Light.ttf');
-}
-@font-face{
-    font-family: Open Sans R;
-    src: url('../fonts/OpenSans-Regular.ttf');
-}
-@font-face{
-    font-family: Open Sans SB;
-    src: url('../fonts/OpenSans-Semibold.ttf');
-}
 
 /** Document Styles **/
 body, html{
@@ -26,8 +9,7 @@ a{
 }
 p, span{
     font-family: Open Sans R;
-    color: #384045;
-    font-size: 14px;
+    color: #384045; 
 }
 /** Helper Classes **/
 .section{
@@ -55,12 +37,7 @@ p, span{
     font-size: 21px;
     color: #233845;
 }
-.flex{
-    display: -webkit-flex;
-    display: flex;
-    -webkit-justify-content: center;
-    justify-content: center;
-}
+
 /** Header + Nav **/
 #header{
     width: 100%;
@@ -74,13 +51,7 @@ p, span{
         height: 100px;
         margin: 0 auto;
     }
-.navbar{
-    width: 100%;
-    height: 60px;
-    position: relative;
-    background-color: #292F33;
-    z-index: 10;
-}
+
     .fix-scroll{
         position: fixed;
         top: 0;
@@ -89,25 +60,6 @@ p, span{
     .space{
         width: 100%;
         height: 60px;
-    }
-    .nav > a{
-        font-family: Geo Sans;
-        border: 2px solid #292F33;
-        padding: 5px;
-        -webkit-transition: all 0.3s ease-in-out;
-        transition: all 0.3s ease-in-out;
-    }
-        .nav > a:hover{
-            border: 2px solid #2F363A;
-        }
-        .active > a{
-            border: 2px solid #2F363A;
-        }
-    .shift{
-        margin-left: 5%;
-    }
-    .nav{
-        margin-top: 19px;
     }
 
 /** Cover **/

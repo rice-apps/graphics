@@ -1,0 +1,9 @@
+TO-DO.txt
+
+Ask atlas - can you add building code support
+
+Need to add a back button/navbar to all pages
+
+Get rid of the underline on hyperlink hover
+
+When accessing apply.html via the home page, there is a gap at the bottom of the page
