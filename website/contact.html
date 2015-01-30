@@ -25,18 +25,7 @@ Design Team:
     <link href="css/styles.css" rel="stylesheet">
     <!-- Javascript / JQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script>
-	// Fix Navigation on Scroll
-	$(window).scroll(function(){
-      	if ($(this).scrollTop() > 120) {
-            $('.navbar').addClass('fix-scroll');
-            $('.navbar-fix').addClass('space');
-      	} else {
-            $('.navbar').removeClass('fix-scroll');
-            $('.navbar-fix').removeClass('space');
-      	}
-  	});
-    </script>
+    <script src="js/navbar.js"></script>
 </head>
 
 <body>
@@ -44,13 +33,13 @@ Design Team:
 <!-- Logo Header -->
 <div id="header">
 	<div class="logo">
-		<a href="home.html"><img src="images/logo-02.png" width="330" height="100"></a>
+		<a href="index.html"><img src="images/logo-02.png" width="330" height="100"></a>
 	</div>
 </div>
 
 <!-- Navigation Bar -->
 <div class="flex navbar">
-	<span class="nav"><a href="home.html"> HOME </a></span>
+	<span class="nav"><a href="index.html"> HOME </a></span>
 	<span class="nav shift"><a href="teams.html"> PROJECTS </a></span>
 	<span class="nav shift active"><a href="#"> CONTACT </a></span>
 	<span class="nav shift"><a href="apply.html"> APPLY </a></span>
