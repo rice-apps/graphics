@@ -5,14 +5,14 @@ html, body {
 }
 
 .back-to-top-btn {
-    width:50%;
+    width:100%;
     bottom:20px;
     position:fixed;
-    background-color: black;
-    opacity: .5;
-    color: white;
-    height: 40px;
-    text-align:center;
+    color: blue;
+    height: 10px;
+    text-align:right;
+    padding-right: 13px;
+    font-family: Bebas;
 }
  
 
@@ -74,7 +74,7 @@ h2.caption{
 }
 
 /* Featurettes
-------------------------- */
+-------------------------- */
 
 .featurette-divider {
   margin: 40px 0px 40px; /* Space out the Bootstrap <hr> more */

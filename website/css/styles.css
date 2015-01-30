@@ -51,10 +51,10 @@ p{
 }
 
 #dead{
-    color:grey;
+    color:lightgrey;
 }
 
-/** ------ FLEX STUFF -------**/
+/** ------- FLEX STUFF -------**/
 
 .flex{
     display: -webkit-flex;
@@ -192,11 +192,9 @@ footer{
     width:50%;
     bottom:20px;
     position:fixed;
-    background-color: black;
-    opacity: .5;
-    color: white;
-    height: 40px; 
-    text-align:center;
+    color: #292F33;
+    padding-right: 18px;
+    text-align:right;
 }
 
 /** ---- SPACER ------**/
