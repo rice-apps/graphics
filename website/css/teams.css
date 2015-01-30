@@ -95,7 +95,7 @@ h2.caption{
 }
 
 img.featurette-image.img-responsive{
-	border: 1px dotted grey; 
+	border: 1px solid lightgrey;
 }
 
 @media (min-width: 992px) {
