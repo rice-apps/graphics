@@ -3,12 +3,6 @@
     font-family: Bebas;
     src: url('BebasNeue.otf');
 }
-
-@font-face{
-    font-family: GeoSans;
-    src: url('GeosansLight.ttf');
-}
- 
 @font-face{
     font-family: Geo Sans;
     src: url('../fonts/GeosansLight.ttf');
@@ -34,22 +28,18 @@ h1,h2,h3 {
     font-family: Bebas; 
     margin-left: 10px; 
 }
-
 h1{
 	font-size:70px;
 }
-
 h2{
     font-size: 40px;
 }
 h4{
     color: #A9A9A9;
 }
-
 p{
     font-size: 14px;
 }
-
 #dead{
     color:lightgrey;
 }
@@ -72,7 +62,22 @@ p{
     -webkit-flex-direction: row;
     flex-direction: row;
 }
+
+/** --------------------------- **/
 /** ------- NAVBAR ------- **/
+#header{
+    width: 100%;
+    height: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #2F363A;
+}
+    .logo{
+        width: 330px;
+        height: 100px;
+        margin: 0 auto;
+    }
+
 .navbar{
     width: 100%;
     height: 60px;
@@ -80,10 +85,15 @@ p{
     background-color: #292F33;
     z-index: 10;
 }
+    .nav{
+        margin-top: 19px;
+    }
     .nav > a{
         font-family: Geo Sans;
         border: 2px solid #292F33;
         padding: 5px;
+        color: #BBBDC0;
+        font-size: 14px;
         -webkit-transition: all 0.3s ease-in-out;
         transition: all 0.3s ease-in-out;
     }
@@ -96,24 +106,6 @@ p{
     .shift{
         margin-left: 5%;
     }
-    .nav{
-        margin-top: 19px;
-    }
-
-/** Header + Nav **/
-    #header{
-        width: 100%;
-        height: 100px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        background-color: #2F363A;
-    }
-    .logo{
-        width: 330px;
-        height: 100px;
-        margin: 0 auto;
-    }
-
     .fix-scroll{
         position: fixed;
         top: 0;
@@ -123,8 +115,6 @@ p{
         width: 100%;
         height: 60px;
     }
-/** --------------------------- **/
-
 /** MARGINS AND BACKGROUND COLORS **/
 
 button {

@@ -1,42 +1,40 @@
- 
-
-.left-words {
-    width: 50%;
-    height: 1000px;
-    display: inline-block;
-    background-color: #9FAFBD;
-    opacity: 50%;
-    padding: 15px;
-}
-.form-scroll {
-    width: 50%;
-    height: 1000px;
-    float: right;
-    overflow: scroll;
-    display: inline-block;
-    background-color: #8DB6D3;
-    padding: 15px;
-    padding-bottom: 80px;
-    font-family: GeoSans;
-} 
- 
-
-.left-texts {
-    font-family: GeoSans;
-}
-
-
-
-.checkbox {
+/** Form **/
+.checkbox{
     margin-left:20px;
+    font-size: 20px;
+}
+label{
+    font-size: 16px;
+}
+.desc-switch {
+    width: 175px;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid #768792;
+    font-family: Open Sans R;
+    font-size: 19px;
+    color: #233845;
 }
 
-label {
-    font-size: 18px;
+#apply-nav{
+	position: absolute;
+    width: auto;
+    display: inline-block;
+    margin-left:10%;
 }
 
-
-
-.checkbox {
-    font-size: 20
+#description{
+	margin-left: 30%;
+}
+.desc-switch{
+    cursor: pointer;
+}
+.desc {
+    width: 60%;
+    display: none;
+    margin-top: 30px;
+    margin-right: 20%;
+    font-family: Open Sans L;
+    height: 360px;
 }
