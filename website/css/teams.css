@@ -90,8 +90,9 @@ h2.caption{
     font-size: 50px;
 }
 
-.row.featurette{
+.fullscreen{
 	height:100vh;
+    margin-top: 80px;
 }
 
 img.featurette-image.img-responsive{
