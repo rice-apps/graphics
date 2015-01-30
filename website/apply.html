@@ -10,6 +10,7 @@
         <link href= "css/newapply.css" rel= "stylesheet">
 
         <script src= "//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src= "js/apply.js"></script>
         <script src= "js/bootstrap.min.js"></script>
         <script src= "js/navbar.js"></script>
     </head>
@@ -41,60 +42,77 @@
         </div>
         <div class= "descriptions">
         <div class="heads">
-            <h5>TEAM LEAD</h5>
-            <h5>DEVELOPER</h5>
-            <h5>DESIGNER</h5>
-            <h5>MINI TASKS</h5>
+            <h5 id="info" class="desc-switch"> INFO </h5>
+            <h5 id="lead" class="desc-switch">TEAM LEAD</h5>
+            <h5 id="developer" class="desc-switch">DEVELOPER</h5>
+            <h5 id="designer" class="desc-switch">DESIGNER</h5>
+            <h5 id="mini" class="desc-switch">MINI TASKS</h5>
         </div>
-        <div class="team-lead">
-             <p>
-                <ul>
-                    <li>- directing the growth of your app</li>
-                    <li>- delegating tasks for team members</li>
-                    <li>- presenting at the Rice Apps Showcase at the end of the year</li>
-                    <li>- attending one of the three coding parties per week</li>
-                    <li>- ensuring the entire team attends the same coding party</li>
-                    <li>- mentoring inexperienced team members if needed</li>
-                    <li>- relaying information from the officers to your team and vice versa</li>
-                    <li>- acting as a representative and point of contact for your app</li>
-                    <li>- code reviewing all pull requests and merging onto master branch</li>
-                </ul>
+        <div class="desc-container">
+            <div class="team-lead desc">
+                 <p>
+                    <ul>
+                        <li>- directing the growth of your app</li>
+                        <li>- delegating tasks for team members</li>
+                        <li>- presenting at the Rice Apps Showcase at the end of the year</li>
+                        <li>- attending one of the three coding parties per week</li>
+                        <li>- ensuring the entire team attends the same coding party</li>
+                        <li>- mentoring inexperienced team members if needed</li>
+                        <li>- relaying information from the officers to your team and vice versa</li>
+                        <li>- acting as a representative and point of contact for your app</li>
+                        <li>- code reviewing all pull requests and merging onto master branch</li>
+                    </ul>
 
-            </p>
+                </p>
+            </div>
+
+            <div class="developer desc">   
+                <p>
+                    <ul>
+                        <li>- contributing ideas to the growth of your app</li>
+                        <li>- completing tasks delegated to you by the team lead </li>
+                        <li>- presenting at the Rice Apps Showcase at the end of the year</li>
+                        <li>- attending one of the three coding parties per week</li>
+                    </ul>
+
+                </p>
+            </div>   
+            <div class="designer desc">
+                <p>
+                    <ul>
+                        <li>- contributing ideas to the growth of your app</li>
+                        <li>- completing tasks delegated to you by the team lead </li>
+                        <li>- attending the general meeting every first Saturday of the month </li>
+                        <li>- attending weekly scrums</li>
+                        <li>- presenting at the Rice Apps Showcase at the end of the year  </li>
+                        <li>- attending one of the three coding parties per week</li>
+                    </ul>
+
+                </p>
+            </div>
+            <div class="info desc">
+                <p>Please indicate on the application which positions you are interested in. Team leads and designers will be added to the end of the waitlist for their respective positions, but developers will be added to the end of the waitlist for specific projects. Applications are accepted on a rolling basis. Your position on the waitlist is determined solely by the timestamp of your application submission. Note that team leads that get off the waitlist will require an interview.           </p>
+
+                <p>There are ways to move up the waitlist. For team leads, please directly reach out to Xilin Liu (xal1@rice.edu) to get an early interview. For designers, submit examples of your visual/web designs to xal1@rice.edu. </p>
+
+                <p>For developers, you may complete one of the listed mini-tasks for whichever project you are interested in. You must fork the project repository at www.github.com/rice-apps and then submit a pull request with your completed work. The team lead will review your submission and may offer you a position on the team. If you are declined, you will still be bumped to the top of the waitlist for that project.</p>
+            </div>
+
+            <div class= "mini desc">
+                <p>
+                    <ul>
+                        <li>- Wellbeing - Create the scene for the alcohol shots calculator</li>
+                        <li>- Wellbeing - Create the marker for the Night Escort bus </li>
+                        <li>-Roommate Finder - Mitigating security vulnerabilities</li>
+                        <li>-Roommate Finder - Validating a string's format</li>
+                        <li>-Roommate Finder - Determining the type of device visiting the site</li>
+                        <li>-Petition App - Send an email after a certain count</li>
+                    </ul>
+                </p>
+            </div>
         </div>
-
-        <div class="developer">   
-            <p>
-                <ul>
-                    <li>- contributing ideas to the growth of your app</li>
-                    <li>- completing tasks delegated to you by the team lead </li>
-                    <li>- presenting at the Rice Apps Showcase at the end of the year</li>
-                    <li>- attending one of the three coding parties per week</li>
-                </ul>
-
-            </p>
-        </div>   
-        <div class="designer">
-            <p>
-                <ul>
-                    <li>- contributing ideas to the growth of your app</li>
-                    <li>- completing tasks delegated to you by the team lead </li>
-                    <li>- attending the general meeting every first Saturday of the month </li>
-                    <li>- attending weekly scrums</li>
-                    <li>- presenting at the Rice Apps Showcase at the end of the year  </li>
-                    <li>- attending one of the three coding parties per week</li>
-                </ul>
-
-            </p>
-        </div>
-        <div class="info">
-            <p>Please indicate on the application which positions you are interested in. Team leads and designers will be added to the end of the waitlist for their respective positions, but developers will be added to the end of the waitlist for specific projects. Applications are accepted on a rolling basis. Your position on the waitlist is determined solely by the timestamp of your application submission. Note that team leads that get off the waitlist will require an interview.           </p>
-
-            <p>There are ways to move up the waitlist. For team leads, please directly reach out to Xilin Liu (xal1@rice.edu) to get an early interview. For designers, submit examples of your visual/web designs to xal1@rice.edu. </p>
-
-            <p>For developers, you may complete one of the listed mini-tasks for whichever project you are interested in. You must fork the project repository at www.github.com/rice-apps and then submit a pull request with your completed work. The team lead will review your submission and may offer you a position on the team. If you are declined, you will still be bumped to the top of the waitlist for that project.</p>
-        </div>
-        </div>
+    </div>
+<br>
 
 <div class= "form-scroll">
         <form>
@@ -141,7 +159,7 @@
             <br>
             
             <div class="form-customized" id="Major">
-                <label for="inputMajor">MAJOR</label>
+                <label for="inputMajor">Major</label>
                 <div class="form-customized">
                     <input style="width:300px; height:30px" type="text" id= "inputMajor" placeholder="Major" maxlength="100" id= "major">
                 </div>
@@ -231,7 +249,7 @@
             <div class="form-customized" id="comments">
                 <label for="comments">Additional Comments</label>
                 <div class="customized">
-                    <textarea class="form-control" rows="5" id= "comments"></textarea>
+                    <textarea class="form-control" rows="5" id= "comments" cols= "30"></textarea>
                 </div>
             </div>
             
@@ -256,9 +274,6 @@
             
         </form>
     
-    <div class = "footer-downarrow">
-        <span class="glyphicon glyphicon-chevron-down" style="font-size:40px; color: #8DB6D3;"></span>
-</div>
 </div>
 
 
