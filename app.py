@@ -38,12 +38,14 @@ def bugs():
 	return redirect('/')
 
 # Idea Submission
-@app.route("/ideas")
+@app.route("/ideas", methods=["POST"])
 def ideas():
+	print request.form['name'] + "asdf"
 	name = request.form['name']
 	email = request.form['email']
 	idea_msg = request.form['idea']
 	subject = 'Idea Submission by %s' % name 
+	print 'hi'
 	#msg = Message(idea_msg, sender=email, recipients=['xal1@rice.edu'], subject=subject)
 	#mail.send(msg)
 	return redirect('/')

@@ -28,6 +28,16 @@ Design Team:
     <!-- Javascript / JQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="/static/js/navbar.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-37939334-4', 'auto');
+  ga('send', 'pageview');
+
+</script>
 </head>
 
 <body>
@@ -57,10 +67,10 @@ Design Team:
         </div>
         <form action="/bugs" method="POST">
             <div class="input-area">
-                <input type="text" id="name" class="input-field" placeholder="Name">
+                <input type="text" name="name" id="name" class="input-field" placeholder="Name">
             </div>
             <div class="input-area">
-                <input type="text" id="email" class="input-field" placeholder="Email">
+                <input type="text" name="email" id="email" class="input-field" placeholder="Email">
             </div>
             <br><br>
             <div class="input-area">
@@ -77,12 +87,12 @@ Design Team:
         </div>
         <form action="/ideas" method="POST">
             <div class="input-area">
-                <input type="text" id="name" class="input-field" placeholder="Name">
-                <input type="text" id="email" class="input-field" placeholder="Email">
+                <input type="text" name="name" id="name" class="input-field" placeholder="Name">
+                <input type="text" name="email" id="email" class="input-field" placeholder="Email">
             </div>
             <br><br>
             <div class="input-area">
-                <textarea rows="5" cols="30" id="idea" placeholder="Please describe the problem, outline steps to reproduce, and any workarounds you may have found."></textarea>
+                <textarea name="idea" rows="5" cols="30" id="idea" placeholder="Please describe the problem, outline steps to reproduce, and any workarounds you may have found."></textarea>
             </div>
             <input type="submit">
         </form>
