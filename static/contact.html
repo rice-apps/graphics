@@ -20,14 +20,14 @@ Design Team:
     <meta name="description" content="">
     <meta name="author" content="">
     <!-- CSS / Bootstrap -->
-    <link href="/static/css/reset.css" rel="stylesheet">
-    <link href="/static/css/contact.css" rel="stylesheet">
-    <link href="/static/css/home.css" rel="stylesheet">
-    <link href="/static/css/styles.css" rel="stylesheet">
-    <link rel="icon" href="/static/images/favicon.ico" type="image/ico" sizes="16x16">
+    <link href="/css/reset.css" rel="stylesheet">
+    <link href="/css/contact.css" rel="stylesheet">
+    <link href="/css/home.css" rel="stylesheet">
+    <link href="/css/styles.css" rel="stylesheet">
+    <link rel="icon" href="/images/favicon.ico" type="image/ico" sizes="16x16">
     <!-- Javascript / JQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="/static/js/navbar.js"></script>
+    <script src="/js/navbar.js"></script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -45,16 +45,16 @@ Design Team:
 <!-- Logo Header -->
 <div id="header">
 	<div class="logo">
-		<a href="/static/index.html"><img src="images/logo-02.png" width="330" height="100"></a>
+		<a href="/"><img src="/images/logo-02.png" width="330" height="100"></a>
 	</div>
 </div>
 
 <!-- Navigation Bar -->
 <div class="flex navbar">
-	<span class="nav"><a href="/static/index.html"> HOME </a></span>
-	<span class="nav shift"><a href="/static/teams.html"> PROJECTS </a></span>
-	<span class="nav shift"><a href="/static/apply.html"> APPLY </a></span>
-	<span class="nav shift"><a href="/static/faq.html"> FAQ </a></span>
+	<span class="nav"><a href="/"> HOME </a></span>
+	<span class="nav shift"><a href="/teams"> PROJECTS </a></span>
+	<span class="nav shift"><a href="/apply"> APPLY </a></span>
+	<span class="nav shift"><a href="/faq"> FAQ </a></span>
 	<span class="nav shift active"><a href="#"> CONTACT </a></span>
 </div>
 <div class="navbar-fix"></div>
@@ -63,9 +63,12 @@ Design Team:
     <!-- Bugs -->
     <div class="section half">
         <div class="section-title-long">
-            <span class="subtitle"> REPORT A BUG </span>
+            <span class="subtitle"> CONTACT US </span>
         </div>
-        <form action="/bugs" method="POST">
+        <form action="/contact" method="POST">
+            <input type="radio" name="type" value="bug" checked>Bug
+            <br>
+            <input type="radio" name="type" value="idea">Idea
             <div class="input-area">
                 <input type="text" name="name" id="name" class="input-field" placeholder="Name">
             </div>
@@ -74,13 +77,13 @@ Design Team:
             </div>
             <br><br>
             <div class="input-area">
-                <textarea rows="5" cols="30" id="bug" placeholder="Please describe the problem, outline steps to reproduce, and any workarounds you may have found."></textarea>
+                <textarea rows="5" cols="30" name="text" id="text" placeholder="Describe the bug that you found, or the new app you'd like to see from us!"></textarea>
             </div>
             <input type="submit">
         </form>
     </div>
 
-    <!-- Ideas -->
+    <!-- Ideas --><!-- 
     <div class="section half">
         <div class="section-title-long">
             <span class="subtitle"> SUBMIT AN IDEA </span>
@@ -96,7 +99,7 @@ Design Team:
             </div>
             <input type="submit">
         </form>
-    </div>
+    </div> -->
 </div>
 
 <!-- Footer -->
