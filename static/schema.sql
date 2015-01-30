@@ -1,12 +1,13 @@
-drop table if exists entries;
-create table apply (
-	id integer primary key autoincrement,
-	name text not null,
-	email text not null,
-	grade text not null,
-	position text not null,
-	project text not null,
-	skills text not null,
-	comments text not null,
-	task text not null
+DROP TABLE IF EXISTS application;
+CREATE TABLE application (
+	appId INTEGER PRIMARY KEY,
+	name TEXT NOT NULL,
+	email TEXT NOT NULL,
+	grade TEXT NOT NULL,
+	position TEXT NOT NULL,
+	project TEXT NOT NULL,
+	skills TEXT NOT NULL,
+	comments TEXT NOT NULL,
+	task TEXT NOT NULL,
+	timestamp DATE NOT NULL
 );
