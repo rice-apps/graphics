@@ -17,10 +17,39 @@
     float: left;
 }
 
-#description{
-	position: relative;
-	margin-left: 30%;
+@media screen and (max-width:550px){
+    #apply-nav{
+        margin-left:20%; 
+    }
 }
+
+@media screen and (max-width:880px) and (min-width:550px){
+    #apply-nav{
+        margin-left:35%; 
+    }
+}
+
+@media screen and (max-width:880px){
+    #description{
+        margin-left: 15%;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:880px){
+    #apply-nav{
+        margin-left:5%; 
+    }
+    #description{ 
+    	margin-left: 30%;
+        text-align: left;
+    }
+}
+
+#description{
+    position: relative;
+}
+
 .desc-switch{
     cursor: pointer;
 }
