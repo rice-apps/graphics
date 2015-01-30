@@ -1,0 +1,49 @@
+.desc-switch {
+    width: 150px;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid #768792;
+    font-family: Open Sans L;
+    font-size: 19px;
+    color: #233845;
+}
+
+#apply-nav{
+	position: relative;
+    width: auto;
+    display: inline-block;
+    margin-left:10%;
+    float: left;
+}
+
+#description{
+	position: relative;
+	margin-left: 30%;
+}
+.desc-switch{
+    cursor: pointer;
+}
+.desc{
+    width: 70%;
+    display: none;
+    margin-right: 20%;
+    font-family: Open Sans L;
+    height: 400px;
+}
+.info{
+	display: inline-block;
+}
+.form-scroll {
+    font-family: Open Sans L;
+    margin-left: 10%;
+}
+
+/** Form **/
+.checkbox{
+    margin-left:20px;
+    font-size: 20px;
+}
+label{
+    font-size: 16px;
+}
