@@ -1,3 +1,4 @@
+import os
 # email server
 MAIL_SERVER = 'smtp.googlemail.com'
 MAIL_PORT = 465
