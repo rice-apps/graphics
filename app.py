@@ -16,7 +16,7 @@ mail = Mail(app)
 # Database
 @app.before_request
 def before_request():
-	g.db = sql.connect('apply.db', detect_types=sqlite3.PARSE_DECLTYPES) #check_same_thread=False
+	g.db = sql.connect('apply.db', detect_types=sql.PARSE_DECLTYPES) #check_same_thread=False
 
 @app.teardown_request
 def teardown_request(exception):
@@ -33,15 +33,18 @@ def projects():
 def faq():
 	return app.send_static_file("faq.html")
 
-@app.route("/images/<str:file_name>")
+@app.route("/images/<string:file_name>")
 def images(file_name):
 	return app.send_static_file("images/%s" % file_name)
-@app.route("/css/<str:file_name>")
+@app.route("/css/<string:file_name>")
 def css(file_name):
 	return app.send_static_file("css/%s" % file_name)
-@app.route("/js/<str:file_name>")
+@app.route("/js/<string:file_name>")
 def js(file_name):
 	return app.send_static_file("js/%s" % file_name)
+@app.route("/fonts/<string:file_name>")
+def fonts(file_name):
+	return app.send_static_file("fonts/%s" % file_name)
 
 @app.route("/contact", methods=["GET", "POST"])
 def contact():
@@ -50,9 +53,10 @@ def contact():
 	elif request.method == "POST":
 		name = request.form['name']
 		email = request.form['email']
-		msg = request.form['text']
-		subject = ('Bug' if request.form['type'] == 'bug' else 'Idea') ' Submission by %s' % name 
-		msg = Message(bug_msg, sender=email, recipients=['xal1@rice.edu'], subject=subject)
+		text = request.form['text']
+		subject = ('Bug' if request.form['type'] == 'bug' else 'Idea') + ' Submission by %s' % name 
+		print subject + "SHPGHPOIHEFPOQIHEG"
+		msg = Message(text, sender=email, recipients=['xal1@rice.edu'], subject=subject)
 		mail.send(msg)
 		return redirect('/contact')
 
