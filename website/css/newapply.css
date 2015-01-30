@@ -1,58 +1,24 @@
- 
-
-
-/*
-.left-words {
-    width: 50%;
-    height: 1000px;
-    display: inline-block;
-    background-color: #9FAFBD;
-    opacity: 50%;
-    padding: 15px;
-}
-.form-scroll {
-    width: 50%;
-    height: 1000px;
-    float: right;
-    overflow: scroll;
-    display: inline-block;
-    background-color: #8DB6D3;
-    padding: 15px;
-    padding-bottom: 80px;
-    font-family: GeoSans;
-} 
- 
-
-.left-texts {
-    font-family: GeoSans;
-}
-*/
-
-
-
-.checkbox {
-    margin-left:20px;
-}
-
-label {
-    font-size: 16px;
-}
-
-
-
-.checkbox {
-    font-size: 20
-}
 
 .intro {
-    font-family: Open Sans;
+    font-family: Open Sans R;
     font-size: 20px;
     line-height: 20px;
     text-align: center;
     width: 60%;
     margin: auto;
-    
 }
+
+
+/** Form **/
+.checkbox {
+    margin-left:20px;
+    font-size: 20px;
+}
+label {
+    font-size: 16px;
+}
+
+
 
 h1 {
     font-size: 70px;
@@ -64,7 +30,7 @@ h5 {
     padding: 10px;
     text-align: center;
     border: 2px solid #768792;
-    font-family: Open Sans;
+    font-family: Open Sans R;
     font-size: 19px;
     color: #233845;
     
@@ -104,7 +70,7 @@ h5 {
     display: none;
     margin-top: 30px;
     margin-right: 20%;
-    font-family: Open Sans;
+    font-family: Open Sans L;
     overflow: scroll;
     height: 360px;
 
@@ -115,7 +81,7 @@ h5 {
 }
 
 .form-scroll {
-    font-family: Open Sans;
+    font-family: Open Sans L;
     margin-left: 20%;
 }
 
