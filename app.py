@@ -23,6 +23,9 @@ def teardown_request(exception):
 		g.db.close()
 
 @app.route("/")
+def index():
+	return app.send_static_file("index.html")
+
 # Bug Submission
 @app.route("/bugs")
 def bugs():
@@ -64,5 +67,5 @@ def apply():
 	return redirect('/')
 
 if __name__ == '__main__':
-	app.run()
+	app.run(host="0.0.0.0", port=80)
 
