@@ -1,45 +1,5 @@
 
-.intro {
-    font-family: Open Sans R;
-    font-size: 20px;
-    line-height: 20px;
-    text-align: center;
-    width: 60%;
-    margin: auto;
-}
 
-
-/** Form **/
-.checkbox {
-    margin-left:20px;
-    font-size: 20px;
-}
-label {
-    font-size: 16px;
-}
-
-
-
-h1 {
-    font-size: 70px;
-}
-
-h5 {
-    width: 175px;
-    height: auto;
-    padding: 10px;
-    text-align: center;
-    border: 2px solid #768792;
-    font-family: Open Sans R;
-    font-size: 19px;
-    color: #233845;
-    
-}
-
-
-.heads > h5{
-    margin-top: 30px;
-}
 
 .descriptions {
     background-color: #E6EBEF;

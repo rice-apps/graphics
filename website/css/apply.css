@@ -1,0 +1,40 @@
+/** Form **/
+.checkbox{
+    margin-left:20px;
+    font-size: 20px;
+}
+label{
+    font-size: 16px;
+}
+.desc-switch {
+    width: 175px;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid #768792;
+    font-family: Open Sans R;
+    font-size: 19px;
+    color: #233845;
+}
+
+#apply-nav{
+	position: absolute;
+    width: auto;
+    display: inline-block;
+    margin-left:10%;
+}
+
+#description{
+	margin-left: 30%;
+}
+.desc-switch{
+    cursor: pointer;
+}
+.desc {
+    width: 60%;
+    display: none;
+    margin-top: 30px;
+    margin-right: 20%;
+    font-family: Open Sans L;
+    height: 360px;
+}

@@ -28,7 +28,7 @@ a{
     color: #BBBDC0;
     font-size: 14px;
 }
-p, span, label, input{
+p, span, label, input, li{
     font-family: Open Sans R;
     color: #384045; 
 }
@@ -37,6 +37,9 @@ h1, h2{
 }
 h1{
     font-size: 45px;
+}
+ul{
+    list-style-type: none;
 }
 /** Helper Classes **/
 .section{
@@ -166,16 +169,29 @@ h1{
     #mission > p{
         text-align: center;
     }
+    #apply-intro > p{
+        width: 80%;
+        margin-left: 10%;
+    }
 
 /** About / FAQ **/
 #about, #faq{
     background-color: #E7F6FF;
 }
     #about > p{
-        width: 90%;
-        text-align: justify;
-        margin-left: 5%;
+        margin-left: 23%;
+        width: 55%;
+        text-align: center; 
     }
+.faq-text{
+    width: 70%;
+    margin-left: 15%;
+}
+.faq-text > p{
+    font-size: 16px;
+    text-align: justify;
+}
+
 /** Contact **/
 form{
     width: 300px;
