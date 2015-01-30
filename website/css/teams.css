@@ -91,8 +91,7 @@ h2.caption{
 }
 
 .fullscreen{
-	height:100vh;
-    margin-top: 80px;
+    margin-top: 90px;
 }
 
 img.featurette-image.img-responsive{
@@ -103,6 +102,11 @@ img.featurette-image.img-responsive{
   .featurette-heading {
     margin-top: 0px;
   }
+
+  .fullscreen {
+    height:100vh;
+  }
+}
 
 p{ 
 	font-weight:300;
