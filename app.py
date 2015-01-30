@@ -45,7 +45,7 @@ def ideas():
 	idea_msg = request.form['idea']
 	subject = 'Idea Submission by %s' % name 
 	#msg = Message(idea_msg, sender=email, recipients=['xl2@rice.edu'], subject=subject)
-	mail.send(msg)
+	#mail.send(msg)
 	return redirect('/')
 
 # Application
@@ -67,5 +67,5 @@ def apply():
 	return redirect('/')
 
 if __name__ == '__main__':
-	app.run(host="0.0.0.0", port=80)
+	app.run(host="0.0.0.0", port=80, debug=True)
 
