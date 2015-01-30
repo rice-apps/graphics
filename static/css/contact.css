@@ -1,0 +1,44 @@
+/** Contact **/
+form{
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+.input-area > span{
+    color: #ADB8BF;
+    display: block;
+}
+input{
+    margin-top: 20px;
+}
+.input-field{
+    width: 250px;
+    padding: 10px;
+    box-shadow: none;
+    border: none;
+    border-bottom: 2px solid #737B7F;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    display: inline;
+    text-align: center;
+}
+.input-field:focus{
+    border: none;
+    border-bottom: 2px solid #ADB8BF;
+    box-shadow: none;
+    outline: 0 none;
+    background-color: #ADB8BF;
+}
+textarea{
+    padding: 10px;
+    border: 2px solid #737B7F;
+    -webkit-transition: border 0.3s ease-in-out;
+    transition: border 0.3s ease-in-out;
+}
+textarea:focus{
+    border: 2px solid #ADB8BF;
+    box-shadow: none;
+    outline: 0 none;
+}
+::-webkit-input-placeholder{
+    color: #ADB8BF;
