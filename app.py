@@ -60,7 +60,7 @@ def contact():
 		name = request.form['name']
 		email = request.form['email']
 		text = request.form['text']
-		subject = ('Bug' if request.form['type'] == 'bug' else 'Idea') + ' Submission by %s' % name 
+		subject = request.form['type'].title() + ' Submission by %s' % name 
 		msg = Message(body=text, sender=email, recipients=['xal1@rice.edu'], subject=subject)
 		mail.send(msg)
 		return redirect('/contact')
