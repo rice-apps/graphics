@@ -33,7 +33,7 @@ def bugs():
 	email = request.form['email']
 	bug_msg = request.form['bug']
 	subject = 'Bug Submission by %s' % name 
-	#msg = Message(bug_msg, sender=email, recipients=['xl2@rice.edu'], subject=subject)
+	#msg = Message(bug_msg, sender=email, recipients=['xal1@rice.edu'], subject=subject)
 	mail.send(msg)
 	return redirect('/')
 
@@ -44,7 +44,7 @@ def ideas():
 	email = request.form['email']
 	idea_msg = request.form['idea']
 	subject = 'Idea Submission by %s' % name 
-	#msg = Message(idea_msg, sender=email, recipients=['xl2@rice.edu'], subject=subject)
+	#msg = Message(idea_msg, sender=email, recipients=['xal1@rice.edu'], subject=subject)
 	#mail.send(msg)
 	return redirect('/')
 
