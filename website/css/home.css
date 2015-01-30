@@ -32,8 +32,9 @@ p, span, label, input, li{
     font-family: Open Sans R;
     color: #384045; 
 }
-h1, h2{
+h1, h2, h5{
     font-family: Bebas;
+    margin-top: 20px;
 }
 h1{
     font-size: 45px;
@@ -163,11 +164,14 @@ ul{
 }
 
 /** Mission **/
-#mission, #apply-intro{
+#mission{
     background-color: #9FB6C5;
 }
     #mission > p{
         text-align: center;
+    }
+    #apply-intro{
+        background-color: #9AB0BF;
     }
     #apply-intro > p{
         width: 80%;
@@ -178,6 +182,9 @@ ul{
 #about, #faq{
     background-color: #E7F6FF;
 }
+    #apply-desc{
+        background-color: #E7F5FF;
+    }
     #about > p{
         margin-left: 23%;
         width: 55%;
@@ -190,52 +197,6 @@ ul{
 .faq-text > p{
     font-size: 16px;
     text-align: justify;
-}
-
-/** Contact **/
-form{
-    width: 300px;
-    margin: 0 auto;
-    text-align: center;
-}
-.input-area > span{
-    color: #ADB8BF;
-    display: block;
-}
-input{
-    margin-top: 20px;
-}
-.input-field{
-    width: 250px;
-    padding: 10px;
-    box-shadow: none;
-    border: none;
-    border-bottom: 2px solid #737B7F;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    display: inline;
-    text-align: center;
-}
-.input-field:focus{
-    border: none;
-    border-bottom: 2px solid #ADB8BF;
-    box-shadow: none;
-    outline: 0 none;
-    background-color: #ADB8BF;
-}
-textarea{
-    padding: 10px;
-    border: 2px solid #737B7F;
-    -webkit-transition: border 0.3s ease-in-out;
-    transition: border 0.3s ease-in-out;
-}
-textarea:focus{
-    border: 2px solid #ADB8BF;
-    box-shadow: none;
-    outline: 0 none;
-}
-::-webkit-input-placeholder{
-    color: #ADB8BF;
 }
 
 /** Footer **/
