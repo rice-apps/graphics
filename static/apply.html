@@ -141,7 +141,7 @@
             <div class="form-customized">
                 <label for="inputName">Name *</label>
                 <div class="form-customized">
-                    <input style="width:300px; height:30px" type="text" id= "inputName" placeholder="Name" maxlength="30" id= "name" required>
+                    <input style="width:300px; height:30px" type="text" id= "inputName" placeholder="Name" maxlength="30" name= "name" required>
                 </div>
             </div>
             
@@ -150,7 +150,7 @@
             <div class="form-customized">
                 <label for="riceID">Email *</label>
                 <div class="form-customized">
-                    <input style="width:300px; height:30px" type="text" id= "riceID" placeholder="example@rice.edu" maxlength="30" id = "email" required>
+                    <input style="width:300px; height:30px" type="text" id= "riceID" placeholder="example@rice.edu" maxlength="30" name = "email" required>
                 </div>
             </div>
         
@@ -160,7 +160,7 @@
             <div class="form-customized" id="Year">
                 <label for= "year">Year *</label>
                 <div class="form-customized">
-                    <select id= "year">
+                    <select name= "year">
                         <option value="freshman">Freshman</option>
                         <option value="sophomore">Sophomore</option>
                         <option value="junior">Junior</option>
@@ -192,7 +192,7 @@
             <br>
             
             <div class="form-customized" id="project">
-                <label for= "project">Which apps would you not like to be considered for?</label>
+                <label for= "project">Which apps would you <strong>NOT</strong> like to be considered for?</label>
                 <div class="form-customized">
                     <div class="checkbox">
                         <input type="checkbox" value="Atlas" name= "project">
@@ -228,7 +228,7 @@
                     <br>ie. Java, C++, HTML/CSS, Parse
                 </label>
                 <div class="customized">
-                    <textarea class="form-control" rows="5" id= "skills">
+                    <textarea class="form-control" rows="5" name= "skills">
                     </textarea>
                 </div>
             </div>
@@ -237,7 +237,7 @@
             <div class="form-customized" id="comments">
                 <label for="comments">Additional Comments</label>
                 <div class="customized">
-                    <textarea class="form-control" rows="5" id= "comments" cols= "30"></textarea>
+                    <textarea class="form-control" rows="5" name= "comments" cols= "30"></textarea>
                 </div>
             </div>
             
