@@ -10,7 +10,7 @@
 }
 
 #apply-nav{
-	position: relative;
+    position: relative;
     width: auto;
     display: inline-block;
     margin-left:10%;
@@ -38,10 +38,10 @@
 
 @media screen and (min-width:880px){
     #apply-nav{
-        margin-left:5%; 
+        margin-left:10%; 
     }
     #description{ 
-    	margin-left: 30%;
+        margin-left: 30%;
         text-align: left;
     }
 }
@@ -61,7 +61,7 @@
     height: 400px;
 }
 .info{
-	display: inline-block;
+    display: inline-block;
 }
 .form-scroll {
     font-family: Open Sans L;
