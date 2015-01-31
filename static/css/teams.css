@@ -56,12 +56,7 @@ html, body {
 .logo{
 	width: 270px; 
 	height: 330px; 
-} 
-
-h2.caption{
-	font-size: 25pt;
-    text-align: center; 
-} 
+}  
 
 .screenshot{
 	width: 580px;
@@ -188,3 +183,13 @@ p{
         display: block;
         height: auto
     } 
+
+/* Font Specific */
+h2.caption{
+    font-size: 25pt;
+    text-align: center; 
+} 
+
+span#contact{
+    color: #DD;
+}
