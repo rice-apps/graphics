@@ -14,30 +14,6 @@ html, body {
     padding-right: 13px;
     font-family: Bebas;
 }
- 
-
-.flexbox{
- 	display:flex;
- 	flex-wrap: wrap; 
- 	justify-content: center;
-  	align-items: center;
-  	flex-direction: row;
- }
-
- 
-
-
-.flex{
-	display: -webkit-flex;
-	display: flex;
-	-webkit-justify-content: center;
-	justify-content: center;
-	-webkit-flex-wrap: wrap;
-	flex-wrap: wrap;
-	-webkit-flex-direction: row;
-	flex-direction: row;
-}
-
 
  div.container{
  	min-height:100%; 

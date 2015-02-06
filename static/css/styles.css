@@ -1,25 +1,3 @@
-/** Fonts **/
-@font-face{
-    font-family: Bebas;
-    src: url('BebasNeue.otf');
-}
-@font-face{
-    font-family: Geo Sans;
-    src: url('../fonts/GeosansLight.ttf');
-}
-@font-face{
-    font-family: Open Sans L;
-    src: url('../fonts/OpenSans-Light.ttf');
-}
-@font-face{
-    font-family: Open Sans R;
-    src: url('../fonts/OpenSans-Regular.ttf');
-}
-@font-face{
-    font-family: Open Sans SB;
-    src: url('../fonts/OpenSans-Semibold.ttf');
-}
-
 /** --------------------------- **/
 	/**  HEADING FONTS **/
 /** --------------------------- **/
@@ -44,77 +22,6 @@ p{
     color:lightgrey;
 }
 
-/** ------- FLEX STUFF -------**/
-
-.flex{
-    display: -webkit-flex;
-    display: flex;
-    -webkit-justify-content: center;
-    justify-content: center;
-}
-.flex-form{
-    display: -webkit-flex;
-    display: flex;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-flex-direction: row;
-    flex-direction: row;
-}
-
-/** --------------------------- **/
-/** ------- NAVBAR ------- **/
-#header{
-    width: 100%;
-    height: 100px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: #2F363A;
-}
-    .logo{
-        width: 330px;
-        height: 100px;
-        margin: 0 auto;
-    }
-
-.navbar{
-    width: 100%;
-    height: 60px;
-    position: relative;
-    background-color: #292F33;
-    z-index: 10;
-}
-    .nav{
-        margin-top: 19px;
-    }
-    .nav > a{
-        font-family: Geo Sans;
-        border: 2px solid #292F33;
-        padding: 5px;
-        color: #BBBDC0;
-        font-size: 14px;
-        -webkit-transition: all 0.3s ease-in-out;
-        transition: all 0.3s ease-in-out;
-    }
-        .nav > a:hover{
-            border: 2px solid #2F363A;
-        }
-        .active > a{
-            border: 2px solid #2F363A;
-        }
-    .shift{
-        margin-left: 5%;
-    }
-    .fix-scroll{
-        position: fixed;
-        top: 0;
-        left: 0;
-    }
-    .space{
-        width: 100%;
-        height: 60px;
-    }
 /** MARGINS AND BACKGROUND COLORS **/
 
 button {
@@ -137,44 +44,6 @@ p {
 .radio {
     margin-left: 10px
 }
-
-
-
-/** Footer **/
-footer{
-    width: 100%;
-    height: auto;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    background-color: #2F363A;
-    font-family: Open Sans L;
-    text-align: center;
-}
-    footer > p{
-        width: 200px;
-        margin: 0 auto;
-        color: #797C7F;
-        font-size: 12px;
-        padding-bottom: 15px;
-    }
-    .footer-menu{
-        width: auto;
-        margin-bottom: 10px;
-    }
-    .footer-menu > a{
-        font-size: 11px;
-        -webkit-transition: all 0.3s ease-in-out;
-        transition: all 0.3s ease-in-out;
-    }
-        .footer-menu > a:hover{
-            color: #797C7F;
-        }
-    footer > span{
-        color: #BBBDC0;
-        font-size: 12px;
-    }
-
-
 
 /**----- DOWN ARROW BAR -----**/
 
