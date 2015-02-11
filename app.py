@@ -91,9 +91,9 @@ def apply():
 		comments = request.form['comments'] # additional comments
 		task = " ".join(request.form.getlist('mini_task')) # completed mini-task
 		with g.con:
-			g.cur.execute("""INSERT INTO application (name, email, grade, position, project, skills, comments, task, timestamp) 
-							VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)""", 
-							(name, email, grade, position, project, skills, comments, task, datetime.now()))
+			g.cur.execute("""INSERT INTO application (name, email, grade, position, project, skills, comments, task, timestamp, accepted) 
+							VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""", 
+							(name, email, grade, position, project, skills, comments, task, datetime.now(), 0))
 			g.con.commit()
 		return redirect('/apply')
 
