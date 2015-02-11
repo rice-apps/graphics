@@ -4,6 +4,10 @@
     src: url('BebasNeue.otf');
 }
 @font-face{
+    font-family: Bebas Light;
+    src: url('BebasNeue Light.otf');
+}
+@font-face{
     font-family: Geo Sans;
     src: url('../fonts/GeosansLight.ttf');
 }
@@ -63,8 +67,10 @@ p{
     flex-direction: row;
 }
 
-/** --------------------------- **/
-/** ------- NAVBAR ------- **/
+/** ----------------------- **/
+/** ------- NAVBAR -------- **/
+/** ----------------------- **/
+
 #header{
     width: 100%;
     height: 100px;
@@ -115,6 +121,8 @@ p{
         width: 100%;
         height: 60px;
     }
+
+    
 /** MARGINS AND BACKGROUND COLORS **/
 
 button {

@@ -6,7 +6,7 @@ html, body {
 
 .back-to-top-btn {
     width:100%;
-    bottom:20px;
+    bottom:20px; 
     position:fixed;
     color: blue;
     height: 10px;

@@ -4,7 +4,7 @@ contact submissions connection
 
 projects navbar
 
-projects too much whitespace
+ 
 
 apply text too long
 
@@ -14,20 +14,12 @@ change url /static
 
 apply mobile friendly
 
+fix contact page formatting
 
 
-
-
-
-
-
-
-
-
+ 
 Ask atlas - can you add building code support
 
 Need to add a back button/navbar to all pages
-
-Get rid of the underline on hyperlink hover
-
-When accessing apply.html via the home page, there is a gap at the bottom of the page
+ 
+ 
