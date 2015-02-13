@@ -1,8 +1,9 @@
 /** Contact **/
 form{
-    width: 300px;
+    width: 60%;
     margin: 0 auto;
     text-align: center;
+    position: relative;
 }
 .input-area > span{
     color: #ADB8BF;
@@ -34,6 +35,8 @@ textarea{
     border: 2px solid #737B7F;
     -webkit-transition: border 0.3s ease-in-out;
     transition: border 0.3s ease-in-out;
+    width: 400px;
+    height: 150px;
 }
 textarea:focus{
     border: 2px solid #ADB8BF;
@@ -42,3 +45,8 @@ textarea:focus{
 }
 ::-webkit-input-placeholder{
     color: #ADB8BF;
+
+
+
+
+

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /** Fonts **/
 @font-face{
     font-family: Bebas;
@@ -24,6 +25,8 @@
     src: url('../fonts/OpenSans-Semibold.ttf');
 }
 
+=======
+>>>>>>> e0839f08d12f6a19a44e9e26e88001944bb4694c
 /** --------------------------- **/
 	/**  HEADING FONTS **/
 /** --------------------------- **/
@@ -48,6 +51,7 @@ p{
     color:lightgrey;
 }
 
+<<<<<<< HEAD
 /** ------- FLEX STUFF -------**/
 
 .flex{
@@ -123,6 +127,8 @@ p{
     }
 
     
+=======
+>>>>>>> e0839f08d12f6a19a44e9e26e88001944bb4694c
 /** MARGINS AND BACKGROUND COLORS **/
 
 button {
@@ -145,44 +151,6 @@ p {
 .radio {
     margin-left: 10px
 }
-
-
-
-/** Footer **/
-footer{
-    width: 100%;
-    height: auto;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    background-color: #2F363A;
-    font-family: Open Sans L;
-    text-align: center;
-}
-    footer > p{
-        width: 200px;
-        margin: 0 auto;
-        color: #797C7F;
-        font-size: 12px;
-        padding-bottom: 15px;
-    }
-    .footer-menu{
-        width: auto;
-        margin-bottom: 10px;
-    }
-    .footer-menu > a{
-        font-size: 11px;
-        -webkit-transition: all 0.3s ease-in-out;
-        transition: all 0.3s ease-in-out;
-    }
-        .footer-menu > a:hover{
-            color: #797C7F;
-        }
-    footer > span{
-        color: #BBBDC0;
-        font-size: 12px;
-    }
-
-
 
 /**----- DOWN ARROW BAR -----**/
 
