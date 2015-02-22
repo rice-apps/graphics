@@ -29,10 +29,16 @@ html, body {
     position:relative;  
 }
 
+
+/* Images */
 .logo{
 	width: 270px; 
 	height: 330px; 
 }  
+
+h2.caption{
+    text-align: center; 
+}
 
 .screenshot{
 	width: 580px;
