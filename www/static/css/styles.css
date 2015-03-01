@@ -1,0 +1,68 @@
+/** --------------------------- **/
+	/**  HEADING FONTS **/
+/** --------------------------- **/
+
+h1,h2,h3 {
+    font-family: Bebas; 
+    margin-left: 10px; 
+}
+h1{
+	font-size:70px;
+}
+h2{
+    font-size: 40px;
+}
+h4{
+    color: #A9A9A9;
+}
+p{
+    font-size: 14px;
+}
+#dead{
+    color:lightgrey;
+}
+
+/** MARGINS AND BACKGROUND COLORS **/
+
+button {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.form-customized {
+    margin-left: 10px;
+}  
+
+button {
+    margin: 10px 10px 10px 10px;     
+}
+
+p {
+    margin-left: 10px;
+}
+  
+.radio {
+    margin-left: 10px
+}
+
+/**----- DOWN ARROW BAR -----**/
+
+.footer-downarrow{
+    width:50%;
+    bottom:20px;
+    position:fixed;
+    color: #292F33;
+    padding-right: 18px;
+    text-align:right;
+}
+
+/** ---- SPACER ------**/
+.spacer{
+    padding-top: 20px;
+    padding-bottom:20px;
+}
+
+/** MISCELLANEOUS **/
+
+ul{list-style-type: none;}
+

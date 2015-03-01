@@ -31,13 +31,13 @@ def teardown_request(exception):
 
 @app.route("/")
 def index():
-	return app.send_static_file("index.html")
+	return app.send_static_file("html/index.html")
 @app.route("/teams")
 def projects():
-	return app.send_static_file("teams.html")
+	return app.send_static_file("html/teams.html")
 @app.route("/faq")
 def faq():
-	return app.send_static_file("faq.html")
+	return app.send_static_file("html/faq.html")
 
 @app.route("/images/<string:file_name>")
 def images(file_name):
@@ -55,7 +55,7 @@ def fonts(file_name):
 @app.route("/contact", methods=["GET", "POST"])
 def contact():
 	if request.method == "GET":
-		return app.send_static_file("contact.html")
+		return app.send_static_file("html/contact.html")
 	elif request.method == "POST":
 		name = request.form['name']
 		email = request.form['email']
@@ -80,7 +80,7 @@ def contact():
 @app.route('/apply', methods=["GET", 'POST'])
 def apply():
 	if request.method == "GET":
-		return app.send_static_file("apply.html")
+		return app.send_static_file("html/apply.html")
 	elif request.method == "POST":
 		name = request.form['name'] # applicant's name
 		email = request.form['email'] # applicant's rice email

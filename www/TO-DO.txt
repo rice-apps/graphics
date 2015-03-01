@@ -1,0 +1,20 @@
+TO-DO.txt
+GENERAL
+-use template + views (i suggest angularjs)
+
+PROJECTS
+-I have no idea i can click on "team lead" or any of the "buttons"
+-ive heard people didn't know there were more projects than the top three
+-GET A TEAM ROSTER, maybe not on this page
+-upvote and roommate were released, update the page
+-update the contact us pages
+
+APPLY
+-missing footer
+-format the form better i think
+-minitasks needs to be updated
+-needs a notification that the form was submitted successfully
+
+CONTACT
+-reimagine this layout i think
+-put my email as a general contact
