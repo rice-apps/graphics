@@ -164,8 +164,17 @@ p{
 h2.caption{
     font-size: 25pt;
     text-align: center; 
-} 
+    margin-left: 0px;
+}
 
 span#contact{
     color: #DD;
+}
+
+a.standalone-link{
+    font-size: 16px;
+}
+
+a.preview-link{
+    font-size: 22px;
 }
