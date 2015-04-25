@@ -4,6 +4,10 @@ html, body {
 	margin: 0;
 }
 
+h2{
+    font-family: Bebas;
+}
+
 .back-to-top-btn {
     width:100%;
     bottom:20px;
@@ -167,14 +171,24 @@ h2.caption{
     margin-left: 0px;
 }
 
-span#contact{
-    color: #DD;
+.dead{
+    color: #D3D3D3;
 }
 
-a.standalone-link{
-    font-size: 16px;
+div.link-button{
+    font-size: 30px;
+    color:white;
+    background-color: #BBB6EC;
+}
+
+.standalone-link{
+    font-size: 30px;
+    color:white;
+    background-color: #3C78B4;
+    text-align: center;
 }
 
 a.preview-link{
-    font-size: 22px;
+    font-size: 30px;
 }
+ 
