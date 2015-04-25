@@ -172,22 +172,22 @@ h2.caption{
 }
 
 .dead{
-    color: grey;
+    background-color: grey;
 }
 
 div.link-button{
-    font-size: 10em;
+    font-size: 30px;
     color:white;
     background-color: #BBB6EC;
 }
 
 .standalone-link{
-    font-size: 10em;
+    font-size: 30px;
     color:white;
     background-color: #BBB6EC;
 }
 
 a.preview-link{
-    font-size: 100em;
+    font-size: 30px;
 }
  
