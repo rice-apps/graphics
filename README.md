@@ -11,14 +11,16 @@ RiceApps-graphics
 
 <li> Web App Guidelines<br>
      Banners should be 125x750 px, or otherwise follow a 6:1 ratio (width:height)<br>
-     Everything is a web app right now...<br>
+     Almost everything is a web app right now.<br>
 </li>
    
 <li> Mobile App Guidelines<br>
      Icons should be 150x150 px<br>
-     a. Wellbeing App: The only one so far that's a mobile app...<br>
+     WELL and LIFE are the only mobile apps.<br>
+	 Although SERV and ATLA are mobile web, and probably CARP eventually.<br>
+</li> 
 
-</li> Project Code<br>
+<li>Project Code<br>
 	00 - Design (DESI)<br>
 	01 - Owlection (ELEC)<br>
 	02 - Atlas (ATLA)<br>
@@ -31,5 +33,5 @@ RiceApps-graphics
 	09 - Rice API (RAPI)<br>
 	10 - Rice Now (RNOW)<br>
 	11 - Carpool (CARP)<br>
-<li>
+</li>
 </ol>
