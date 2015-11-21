@@ -85,6 +85,7 @@ img.featurette-image.img-responsive{
 
 p{ 
 	font-weight:300;
+    padding-top: 1em; 
 }
 
 /** **/
@@ -172,20 +173,16 @@ h2.caption{
 }
 
 .dead{
-    color: #D3D3D3;
+    color: #999;
 }
-
-div.link-button{
-    font-size: 30px;
-    color:white;
-    background-color: #BBB6EC;
-}
+ 
 
 .standalone-link{
     font-size: 30px;
     color:white;
     background-color: #3C78B4;
     text-align: center;
+    padding:5px; 
 }
 
 a.preview-link{
