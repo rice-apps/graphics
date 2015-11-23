@@ -1,4 +1,4 @@
-
+ 
 html, body {
 	height: 100%;
 	margin: 0;
@@ -88,7 +88,7 @@ p{
     padding-top: 1em; 
 }
 
-/** **/
+/** MOBILE: For the mini website images on the left side, featurette section; **/
 
 @media screen and (max-width:870px) {
     .container .main .chrome .top {
@@ -111,7 +111,7 @@ p{
     }
 }
 
-    /** **/
+    /** For the mini website images on the left, featurette section **/
     div.chrome {
         background: url(images/internet-bar.jpg) no-repeat left top;
         background-size: contain;
@@ -167,58 +167,64 @@ p{
     } 
 
 /* Font Specific */
-h2.caption{
-    font-size: 25pt;
-    text-align: center; 
-    margin-left: 0px;
-}
 
-.dead{
-    color: #999;
-}
+
+  h2.caption{
+      font-size: 0.8em;
+      text-align: center; 
+      margin-left: 0px;
+  }
+
+  .dead{
+      color: #999;
+  }
+   
+/* Buttons */ 
+
+  .standalone-link{
+      font-size: 30px;
+      color: #1B3C66;
+      background-color: #3C78B4;
+      text-align: center;
+      padding:5px; 
+  }
+
+  .standalone-link:hover{
+      color:white;
+  }
+
+  .preview-link{
+      font-size: 30px;
+      border: 1px #333; 
+      padding:5px; 
+  }
+
+/* Flexbox for the top icons */
  
+  .flex-container {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
+  }
 
-.standalone-link{
-    font-size: 30px;
-    color: #1B3C66;
-    background-color: #3C78B4;
+  .flex-item {
+    background: white;
+    padding: 5px;
+    width: 220px; 
+    margin-top: 10px;
+    
+    color: #333;
+    font-weight: bold;
+    font-size: 3em;
     text-align: center;
-    padding:5px; 
-}
-
-.standalone-link:hover{
-    color:white;
-}
-
-a.preview-link{
-    font-size: 30px;
-}
-
- 
-.flex-container {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  
-  -webkit-flex-flow: row wrap;
-  justify-content: space-around;
-}
-
-.flex-item {
-  background: white;
-  padding: 5px;
-  width: 220px; 
-  margin-top: 10px;
-  
-  color: #333;
-  font-weight: bold;
-  font-size: 3em;
-  text-align: center;
-}
+  }
  
