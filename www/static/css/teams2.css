@@ -180,19 +180,21 @@ h2.caption{
 
 .standalone-link{
     font-size: 30px;
-    color:white;
+    color: #1B3C66;
     background-color: #3C78B4;
     text-align: center;
     padding:5px; 
+}
+
+.standalone-link:hover{
+    color:white;
 }
 
 a.preview-link{
     font-size: 30px;
 }
 
-
-
-
+ 
 .flex-container {
   padding: 0;
   margin: 0;
@@ -211,8 +213,7 @@ a.preview-link{
 .flex-item {
   background: white;
   padding: 5px;
-  width: 200px;
-  height: 150px;
+  width: 220px; 
   margin-top: 10px;
   
   color: #333;
