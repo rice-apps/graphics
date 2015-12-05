@@ -9,5 +9,6 @@ CREATE TABLE application (
 	skills TEXT NOT NULL,
 	comments TEXT NOT NULL,
 	task TEXT NOT NULL,
-	timestamp DATE NOT NULL
+	timestamp DATE NOT NULL,
+	accepted INTEGER NOT NULL
 );
