@@ -1,13 +1,27 @@
 .desc-switch {
     width: 150px;
-    height: auto;
-    padding: 10px;
-    text-align: center;
-    border: 2px solid #768792;
+    height: auto; 
+    padding: 40px 10px;
+    text-align: center; 
+    vertical-align: middle;
     font-family: Open Sans L;
-    font-size: 19px;
-    color: #233845;
+    font-size: 19px; 
 }
+
+.desc-switch:hover {
+    opacity: 0.9;
+}
+ 
+#developer {
+    background-color: rgb(0,66,113);
+    color:#fff;
+}
+
+#designer {
+    background-color: #ddd;
+    color: #333;
+    border: 2px solid #ccc; 
+} 
 
 #apply-nav{
     position: relative;
@@ -53,12 +67,13 @@
 .desc-switch{
     cursor: pointer;
 }
-.desc{
+.desc {
     width: 70%;
     display: none;
-    margin-right: 20%;
+    margin-right: 10%;
     font-family: Open Sans L;
-    height: 400px;
+    height: 350px;  
+    padding:1em;
 }
 .info{
     display: inline-block;
